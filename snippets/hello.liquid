@@ -1,0 +1,13 @@
+{% for collection in collections %}
+  <h2>{{ collection.title }}</h2>
+  {% unless collection.description == blank %}
+    <p>{{ collection.description }}</p>
+  {% endunless -%}
+  {% for product in collection.products %}
+    {% if product.featured_image %}
+      <img src="{{ product | image_url }}">
+    {% endif %}
+    <h3>{{ product.title }}</h3>
+    <p>{{ product.price | money }}</p>
+  {% endfor %}
+{% endfor -%}

@@ -1,0 +1,138 @@
+<footer class="footer">
+  <div class="width">
+    <div class="footer-top">
+      {% for block in section.blocks %}
+        {% if block.type == 'navigation' %}
+          <div class="footer-column footer-column--nav">
+            <h1>{{ block.settings.linklist.title }}</h1>
+            {% for link in block.settings.linkedlist.links %}
+              <li>
+                <a href="{{ link.url }}">{{ link.title }}</a>
+              </li>
+            {% endfor %}
+          </div>
+        {% elsif block.type == 'text' %}
+          <div class="customtext">
+            <h1>{{ block.settings.heading }}</h1>
+            <p>{{ block.settings.text }}</p>
+          </div>
+        {% elsif block.type == 'newsletter' %}
+          <div class="footer-column-news">
+            <h1>{{ block.settings.heading }}</h1>
+            <p>{{ block.settings.text }}</p>
+            <form>
+              <input type="email">
+              <button type="submit" class="button">Submit</button>
+            </form>
+          </div>
+        {% elsif block.type == 'image_picker' -%}
+          <div class="image">
+            {{
+              block.settings.image
+              | image_url: width: 100
+              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+            }}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</footer>
+
+<style>
+  /* *{
+    margin:0;
+    padding:0;
+  }
+  footer{
+    background-color: lavender;
+    text-align:center;
+    padding:50px;
+  }
+  .footer-colum-text h1{
+    font-weight:500px;
+  }
+
+  li{
+    list-style:none;
+    }
+
+  a{
+    text-decoration:none;
+    font-size:20px;
+
+  }
+  .footer-column-news h1{
+    font-size:70px;
+  }
+
+  .footer-column-news form{
+    margin-top:20px;
+  }
+  .footer-column-news input{
+      border: none;
+      border-bottom: 2px solid ;
+      outline: none;
+      padding: 5px;
+     background-color: lavender;
+  }
+  .footer-column-news  button{
+      appearence:none;
+      display:inline-block;
+      background-color:white;
+      color:black;
+      padding:0 32px;
+      border:1px solid black;
+      font-weight:bold;
+  }
+
+  .footer-column-news  button:hover{
+    font-weight:bold;
+    background-color:black;
+    color:white;
+  }
+   .image{
+    display:inline-block;
+    mix-blend-mode:color-burn;
+    padding-right:60px;
+
+    padding-left:40px;
+    padding-bottom:80px;
+  }
+  */
+</style>
+
+{% schema %}
+{
+  "name": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id":"heading",
+      "label":"Heading"
+    }
+
+  ],
+  "max_blocks":10,
+  "blocks":
+  [
+
+    {
+      "type":"text",
+      "name":"text",
+      "settings":[
+        {
+          "type":"text",
+          "id":"text",
+          "label":"select text"
+        }
+      ]
+    }
+   ],
+  "presets" :[
+    {
+      "name":"Text"
+    }
+  ]
+}
+{% endschema %}

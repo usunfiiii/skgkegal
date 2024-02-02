@@ -1,0 +1,45 @@
+<h3>{{ section.settings.heading }}</h3>
+<p>{{ section.settings.descripton }}</p>
+{% schema %}
+{
+  "name": "icon-with-text",
+  "settings": [
+    {
+      "type":"text",
+      "label":"your headline for the section",
+      "id":"heading"
+    },
+    {
+      "type":"richtext",
+      "label":"your Description",
+      "id":"descripton"
+    }
+  ],
+  "blocks" :[
+    {
+      "type":"image",
+      "name":"image block",
+      "settings":[
+        {
+          "type":"image_picker",
+          "label":"your Image",
+          "id":"image"
+        }
+      ]
+    }
+  ],
+
+
+  "presets":[
+    {
+      "name" :"icon with text"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,85 @@
+<div class="width">
+  <div class="footer-top">
+    {% for block in section.blocks %}
+      {% if block.type == 'image_picker' -%}
+        <div class="image">
+          {{
+            block.settings.image
+            | image_url: width: 80
+            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+          }}
+        </div>
+      {% elsif block.type == 'richtext' %}
+        <div class="richtext">
+          <h1>{{ block.settings.imgrich }}</h1>
+          <p>{{ block.settings.text }}</p>
+        </div>
+      {% elsif block.type == 'text' %}
+        <div class="text">
+          <p>{{ block.settings.imgtxt }}</p>
+          <p>{{ block.settings.text }}</p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<style></style>
+
+{% schema %}
+{
+  "name": "image rich-text",
+  "settings": [
+    {
+      "type": "text",
+      "id":"heading",
+      "label":"Heading"
+    }
+
+
+
+  ],
+  "max_blocks":10,
+  "blocks":
+  [
+
+    {
+      "type":"image_picker",
+      "name":"image",
+      "settings":[
+        {
+          "type":"image_picker",
+          "id":"image",
+          "label":"select image"
+        }
+      ]
+    },
+    {
+      "type":"richtext",
+      "name":"img rich",
+      "settings":[
+        {
+          "type":"richtext",
+          "id":"imgrich",
+          "label":"add content"
+        }
+      ]
+    },
+    {
+      "type":"text",
+      "name":"img text",
+      "settings":[
+        {
+          "type":"text",
+          "id":"imgtxt",
+          "label":"add content"
+        }
+      ]
+    }
+   ],
+  "presets" :[
+    {
+      "name":"image richtext"
+    }
+  ]
+}
+{% endschema %}

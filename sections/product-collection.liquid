@@ -1,0 +1,31 @@
+<div class="liq">
+  <p>{{ section.settings.input }}</p>
+  <h1>{{ section.settings.inline }}</h1>
+</div>
+{% schema %}
+{
+  "name": "Product Collection",
+  "settings": [
+    {
+      "type":"text",
+      "id":"input",
+      "default":"Enter your Name",
+      "label":"Name"
+    },
+    {
+      "type":"inline_richtext",
+      "id":"description",
+      "label":"Description",
+      "default":"Description about the input"
+    }
+
+
+
+  ],
+  "presets":[
+    {
+      "name":"Product collection"
+    }
+  ]
+}
+{% endschema %}

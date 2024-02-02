@@ -1,0 +1,69 @@
+<style>
+    .myliq{
+    font-size:{{section.settings.font-size}}px;
+    color:{{section.settings.text-color}};
+    font-family:{{section.settings.font-family}};
+    text-align:{{section.settings.text-align}};
+  }
+</style>
+{% if section.settings.checkbox -%}
+  }
+  <div class="myliq">
+    <p>{{ section.settings.input }}</p>
+  </div>
+{% endif %}
+{% schema %}
+{
+  "name": " Custom Section",
+  "settings": [
+    {
+      "type":"checkbox",
+      "id":"checkbox",
+      "label":"Show Input",
+      "default":true
+    },
+    {
+    "type": "text",
+    "id" :"input",
+    "label" : "Input",
+     "default" :"Heading"
+    },
+
+    {
+      "type" :"color",
+      "id":"text-color",
+      "label" :"Text-color",
+      "default" :"#000000"
+    },
+    {
+      "type": "range",
+      "id":"font-size",
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label":"font size",
+      "default":50
+    },
+    {
+  "type": "radio",
+  "id": "text-align",
+  "label": "Text-align",
+  "options": [
+    {
+      "value": "left",
+      "label": "Left"
+    },
+    {
+      "value": "center",
+      "label": "Center"
+    }
+  ],
+  "default": "left"
+}
+],
+  "presets":[{
+    "name": "Custom Section"
+  }]
+}
+{% endschema %}
