@@ -49,11 +49,11 @@
             "subheading": "To solve the legal issues for you",
             "button_label": "PRACTICE AREA",
             "link": "",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 30,
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
@@ -64,7 +64,7 @@
         "slide_8MNFyQ"
       ],
       "custom_css": [
-        ".slideshow__text {background-color: transparent; color: white; transform-origin: 50% 50%; transform: translate(0px, 0px); font-size: 40px; font-weight: bold; }",
+        ".slideshow__text {background-color: transparent; color: white; transform-origin: 50% 50%; transform: translate(0px, 0px); font-size: 40px; font-weight: bold;}",
         ".banner__heading {color: white; letter-spacing: 5px; font-size: 20px; transform-origin: 50% 50%; transform: translate(0px, 0px);}"
       ],
       "settings": {
