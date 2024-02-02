@@ -63,6 +63,10 @@
         "slide_7dV8dY",
         "slide_8MNFyQ"
       ],
+      "custom_css": [
+        ".slideshow__text {background-color: transparent; color: white; transform-origin: 50% 50%; transform: translate(0px, 0px); font-size: 40px; font-weight: bold; }",
+        ".banner__heading {color: white; letter-spacing: 5px; font-size: 20px; transform-origin: 50% 50%; transform: translate(0px, 0px);}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
