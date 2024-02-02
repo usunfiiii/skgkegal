@@ -64,7 +64,7 @@
         "slide_8MNFyQ"
       ],
       "custom_css": [
-        ".slideshow__text {background-color: transparent; color: white; letter-spacing: 5px; transform-origin: 50% 50%; transform: translate(0px, 0px); font-size: 40px; font-weight: bold; width:100%;}",
+        ".slideshow__text {background-color: transparent; color: white; letter-spacing: 5px; transform-origin: 50% 50%; transform: translate(0px, 0px); font-size: 40px; font-weight: bold; width: 100%;}",
         ".banner__heading {color: white; letter-spacing: 5px; font-size: 20px; transform-origin: 50% 50%; transform: translate(0px, 0px);}"
       ],
       "settings": {
@@ -637,7 +637,7 @@
         "caption_r9B3T9"
       ],
       "custom_css": [
-        ".btn {margin-top: 50px; padding: 20px; background-color: white; color: #1d2740; font-size: 15px; font-weight: bold;}",
+        ".btn {margin-top: 50px; padding: 10px; background-color: white; color: #1d2740; font-size: 15px; font-weight: bold; width:250px;}",
         ".btn:hover {background-color: #ad9779; color: white;}",
         ".rich-text__heading {color: #ad9779;}",
         ".rich-text__blocks {background-color: #1d2740; padding: 50px; width: 450px; color: white;}",
