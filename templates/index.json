@@ -625,7 +625,7 @@
         "caption_r9B3T9": {
           "type": "caption",
           "settings": {
-            "caption": "When you hire our firm to mana",
+            "caption": "As a team, SGKLegal has worked together for over 40 years. Our attorneys are accustomed to each other’s professional approach to a case which allows versatility and value-added service for our clients. We can take care of matters quickly and efficiently, with an eye to saving money while providing a high degree of personal attention to our clients.",
             "text_style": "subtitle",
             "text_size": "large"
           }
@@ -637,11 +637,11 @@
         "caption_r9B3T9"
       ],
       "custom_css": [
-        ".btn {margin-top: 50px; padding: 10px; background-color: white; color: #1d2740; font-size: 15px; font-weight: bold; width:250px;}",
+        ".btn {margin-top: 50px; padding: 10px; background-color: white; color: #1d2740; font-size: 15px; font-weight: bold; width: 250px;}",
         ".btn:hover {background-color: #ad9779; color: white;}",
         ".rich-text__heading {color: #ad9779;}",
         ".rich-text__blocks {background-color: #1d2740; padding: 50px; width: 450px; color: white;}",
-        ".right {margin-left: 0; background-color: white;}"
+        ".right{display:flex; flex-direction:row;}"
       ],
       "settings": {
         "desktop_content_position": "left",
