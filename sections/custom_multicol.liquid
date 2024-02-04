@@ -138,17 +138,17 @@
                       href="{{ block.settings.link }}"
                     {% endif %}
                   >
-                    {% if block.settings.bottom_image != 'blank' %}
-                      {{
-                        block.settings.bottom_image
-                        | image_url: width: 300
-                        | image_tag: sizes: sizes, class: 'multicolumn-card__image'
-                      }}
-                    {% endif %}
                     {{- block.settings.link_label | escape -}}
                     <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
                   >
                 {%- endif -%}
+                {% if block.settings.bottom_image != 'blank' %}
+                  {{
+                    block.settings.bottom_image
+                    | image_url: width: 500
+                    | image_tag: sizes: sizes, class: 'multicolumn-card__image'
+                  }}
+                {% endif %}
               </div>
             </div>
           </li>
