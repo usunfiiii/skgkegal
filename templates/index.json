@@ -713,6 +713,66 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_multicol_pCQFqz": {
+      "type": "custom_multicol",
+      "blocks": {
+        "column_CGQ6Eg": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "title": "REQUEST CONSULTATION",
+            "text": "<p>If you are in need of help from a lawyer, we will advise you free of charge regardless of the case. Grow organically the holistic world view.<\/p>",
+            "link_label": "Get In Touch",
+            "link": "",
+            "bottom_image": "shopify:\/\/shop_images\/h1_fancy1.jpg",
+            "image_size": "square"
+          }
+        },
+        "column_wmffU7": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "image_size": "adapt"
+          }
+        },
+        "column_jdEVpe": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "image_size": "adapt"
+          }
+        }
+      },
+      "block_order": [
+        "column_CGQ6Eg",
+        "column_wmffU7",
+        "column_jdEVpe"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -729,6 +789,7 @@
     "image_dBKpGq",
     "rich_text_RehA8h",
     "img_with_text_2_DQ8GTh",
-    "multicolumn_G9Mpyc"
+    "multicolumn_G9Mpyc",
+    "custom_multicol_pCQFqz"
   ]
 }
