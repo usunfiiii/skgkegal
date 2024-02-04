@@ -78,6 +78,68 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "custom_multicol_pCQFqz": {
+      "type": "custom_multicol",
+      "blocks": {
+        "column_CGQ6Eg": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "title": "REQUEST CONSULTATION",
+            "text": "<p>If you are in need of help from a lawyer, we will advise you free of charge regardless of the case. Grow organically the holistic world view.<\/p>",
+            "link_label": "Get In Touch",
+            "link": "",
+            "bottom_image": "shopify:\/\/shop_images\/h1_fancy1.jpg",
+            "image_size": "square"
+          }
+        },
+        "column_wmffU7": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "title": "40+ Years of Experience",
+            "text": "<p>Experienced Attorneys in New Jersey.We have the best skilled lawyers with many years of background knowledge and experience.<\/p>",
+            "link_label": "Read More",
+            "link": "",
+            "bottom_image": "shopify:\/\/shop_images\/h1_fancy2.jpg",
+            "image_size": "adapt"
+          }
+        },
+        "column_jdEVpe": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "title": "Experienced Attorneys",
+            "text": "<p>Our attorneys are accustomed to each other’s professional approach to a case which allows versatility and value-added service for our clients.<\/p>",
+            "link_label": "Read More",
+            "link": "",
+            "bottom_image": "shopify:\/\/shop_images\/h1_fancy3.jpg",
+            "image_size": "adapt"
+          }
+        }
+      },
+      "block_order": [
+        "column_CGQ6Eg",
+        "column_wmffU7",
+        "column_jdEVpe"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_tUgpaF": {
       "type": "image-with-text",
       "blocks": {
@@ -713,73 +775,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_multicol_pCQFqz": {
-      "type": "custom_multicol",
-      "blocks": {
-        "column_CGQ6Eg": {
-          "type": "column",
-          "settings": {
-            "heading": "",
-            "title": "REQUEST CONSULTATION",
-            "text": "<p>If you are in need of help from a lawyer, we will advise you free of charge regardless of the case. Grow organically the holistic world view.<\/p>",
-            "link_label": "Get In Touch",
-            "link": "",
-            "bottom_image": "shopify:\/\/shop_images\/h1_fancy1.jpg",
-            "image_size": "square"
-          }
-        },
-        "column_wmffU7": {
-          "type": "column",
-          "settings": {
-            "heading": "",
-            "title": "40+ Years of Experience",
-            "text": "<p>Experienced Attorneys in New Jersey.We have the best skilled lawyers with many years of background knowledge and experience.<\/p>",
-            "link_label": "Read More",
-            "link": "",
-            "bottom_image": "shopify:\/\/shop_images\/h1_fancy2.jpg",
-            "image_size": "adapt"
-          }
-        },
-        "column_jdEVpe": {
-          "type": "column",
-          "settings": {
-            "heading": "",
-            "title": "Experienced Attorneys",
-            "text": "<p>Our attorneys are accustomed to each other’s professional approach to a case which allows versatility and value-added service for our clients.<\/p>",
-            "link_label": "Read More",
-            "link": "",
-            "bottom_image": "shopify:\/\/shop_images\/h1_fancy3.jpg",
-            "image_size": "adapt"
-          }
-        }
-      },
-      "block_order": [
-        "column_CGQ6Eg",
-        "column_wmffU7",
-        "column_jdEVpe"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_with_text_LYL7BM",
     "slideshow_6eeche",
+    "custom_multicol_pCQFqz",
     "image_with_text_tUgpaF",
     "rich_text_3mw6XJ",
     "multicolumn_WiJWnn",
@@ -791,7 +792,6 @@
     "image_dBKpGq",
     "rich_text_RehA8h",
     "img_with_text_2_DQ8GTh",
-    "multicolumn_G9Mpyc",
-    "custom_multicol_pCQFqz"
+    "multicolumn_G9Mpyc"
   ]
 }
