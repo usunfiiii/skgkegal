@@ -113,12 +113,13 @@
                     {%- if block.settings.title != blank -%}
                       <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                     {%- endif -%}
-
-                    {{
-                      block.settings.image
-                      | image_url: width: 800
-                      | image_tag: sizes: sizes, class: 'multicolumn-card__image'
-                    }}
+                    <div class="image">
+                      {{
+                        block.settings.image
+                        | image_url: width: 100
+                        | image_tag: sizes: sizes, class: 'multicolumn-card__image'
+                      }}
+                    </div>
                   </div>
                 </div>
               {%- endif -%}
