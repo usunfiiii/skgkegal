@@ -116,7 +116,7 @@
                     <div class="image">
                       {{
                         block.settings.image
-                        | image_url: width: 100
+                        | image_url: width: 30
                         | image_tag: sizes: sizes, class: 'multicolumn-card__image'
                       }}
                     </div>
@@ -146,7 +146,7 @@
                 {% if block.settings.bottom_image != 'blank' %}
                   {{
                     block.settings.bottom_image
-                    | image_url: width: 500
+                    | image_url: width: 400
                     | image_tag: sizes: sizes, class: 'multicolumn-card__image'
                   }}
                 {% endif %}
