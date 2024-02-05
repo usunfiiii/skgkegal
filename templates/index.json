@@ -1,1 +1,798 @@
-{"sections":{"image_with_text_LYL7BM":{"type":"image-with-text","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/reason_picture.webp","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"slideshow_6eeche":{"type":"slideshow","blocks":{"slide_7dV8dY":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/unnamed.jpg","heading":"WELCOME TO SGK LEGAL","heading_size":"h1","subheading":"Focusing on the Legal needs oof Individuals and small Business","button_label":"PRACTICE AREAS","link":"","button_style_secondary":false,"box_align":"middle-left","show_text_box":true,"text_alignment":"left","image_overlay_opacity":60,"color_scheme":"","text_alignment_mobile":"center"}},"slide_8MNFyQ":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/slider2_01.jpg","heading":"DONT WORRY OUR TEAM IS HERE","heading_size":"h2","subheading":"To solve the legal issues for you","button_label":"PRACTICE AREA","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}}},"block_order":["slide_7dV8dY","slide_8MNFyQ"],"settings":{"layout":"full_bleed","slide_height":"medium","slider_visual":"dots","auto_rotate":true,"change_slides_speed":5,"image_behavior":"ambient","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"image_with_text_tUgpaF":{"type":"image-with-text","blocks":{"caption_RiTUrU":{"type":"caption","settings":{"caption":"ABOUT SGKLEAL","text_style":"caption-with-letter-spacing","text_size":"large"}},"heading_cUjnXN":{"type":"heading","settings":{"heading":"Focusing on the Legal Needs of Individuals and Small Business","heading_size":"h1"}},"text_JAJNnU":{"type":"text","settings":{"text":"<p>As a team, SGKLegal has worked together for over 40 years. Our attorneys are accustomed to each other’s professional approach to a case which allows versatility and value-added service for our clients. We can take care of matters quickly and efficiently, with an eye to saving money while providing a high degree of personal attention to our clients.<\/p>","text_style":"body"}},"text_6Beh3K":{"type":"text","settings":{"text":"<p>Call us 24\/7. Let’s start fighting together<\/p>","text_style":"body"}},"heading_ne49bt":{"type":"heading","settings":{"heading":"(732)613-8003 Or Book Appointment","heading_size":"h2"}}},"block_order":["caption_RiTUrU","heading_cUjnXN","text_JAJNnU","text_6Beh3K","heading_ne49bt"],"custom_css":[".image-with-text__heading {color: #ad9779;}"],"settings":{"image":"shopify:\/\/shop_images\/uncle.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"rich_text_3mw6XJ":{"type":"rich-text","blocks":{"text_L4i4D9":{"type":"text","settings":{"text":"<p>WHAT WE ARE EXPERT AT<\/p>","richcolor":"#000000"}},"heading_DPkfXx":{"type":"heading","settings":{"heading":"<strong>Practice Area<\/strong>","heading_clr":"#000000","heading_size":"h1"}},"caption_RiRwXE":{"type":"caption","settings":{"caption":"","text_style":"subtitle","text_size":"medium"}},"text_mPUY9T":{"type":"text","settings":{"text":"<p>We are especially skilled in the following practice areas<\/p>","richcolor":"#000000"}}},"block_order":["text_L4i4D9","heading_DPkfXx","caption_RiRwXE","text_mPUY9T"],"custom_css":["ext-th2 {color: #000000;}","div {color: #ad9779;}",".button:hover {background-color: #05174b;}",".rich-text__caption {text-align: center;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"underline":true,"padding_top":40,"padding_bottom":52,"body_text":"#000000"}},"multicolumn_WiJWnn":{"type":"multicolumn","blocks":{"column_r9AixL":{"type":"column","settings":{"heading":"Business & Commercial Law","image":"shopify:\/\/shop_images\/area_icon_02_9c2021a1-52de-44f3-86bb-6285038f599a.png","title":"","text":"<p>Business & Commercial Law If you need the assistance of…<\/p>","link_label":"Read More","link":""}},"column_MeNw88":{"type":"column","settings":{"heading":"Civil Litigation","image":"shopify:\/\/shop_images\/civil_law_white.svg","title":"","text":"<p>Civil Litigation Civil litigation is the process in which civil…<\/p>","link_label":"Read More","link":""}},"column_TeTGPR":{"type":"column","settings":{"heading":"Family Law & Divorce","image":"shopify:\/\/shop_images\/area_icon_01.png","title":"","text":"<p>Family Law & Divorce When you are involved with an…<\/p>","link_label":"Read More","link":""}}},"block_order":["column_r9AixL","column_MeNw88","column_TeTGPR"],"custom_css":[".multicolumn-card {}",".multicolumn-card:hover {transition: background 0.5s ease; background: linear-gradient(45deg, #28334ed6 50%, #1d2740 50%); color: white;}",".media {background-color: #1d2740;}",".media:hover {background-color: #ad9779;}",".link {font-size: 20px; font-weight: bold; color: #ad9779;}",".link:hover {font-size: 20px; font-weight: bold; color: white; transition: border-bottom 0.3s ease;}",".button {background-color: #ad9779; font-size: 20px; font-weight: bold;}",".button:hover {background-color: #1d2740;}"],"settings":{"title":"","heading_size":"h1","image_width":"third","image_ratio":"square","columns_desktop":3,"column_alignment":"center","background_style":"primary","button_label":"view all","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"rich_text_JkAqNc":{"type":"rich-text","blocks":{"text_GKWP9q":{"type":"text","settings":{"text":"<p>OUR STRENGTH AND OUR KEY<\/p>","richcolor":"#000000"}},"heading_xnqxGm":{"type":"heading","settings":{"heading":"Meet Our Attorneys","heading_clr":"#000000","heading_size":"h1"}},"button_3g9GFF":{"type":"button","settings":{"button_label":"","buttonclr":"#000000","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["text_GKWP9q","heading_xnqxGm","button_3g9GFF"],"custom_css":["h2 {color: #000000;}","div {color: #ad9779;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"underline":true,"padding_top":40,"padding_bottom":52,"body_text":"#000000"}},"multicolumn_qHeWq9":{"type":"multicolumn","blocks":{"column_LNBeRe":{"type":"column","settings":{"heading":"","image":"shopify:\/\/shop_images\/alan.png","title":"Allan Gottlieb","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"column_REpTNj":{"type":"column","settings":{"heading":"","image":"shopify:\/\/shop_images\/Lawrence.png","title":"Lawrence Kroll","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"column_KwxPwd":{"type":"column","settings":{"heading":"","image":"shopify:\/\/shop_images\/David.png","title":"David Sapiro","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}}},"block_order":["column_LNBeRe","column_REpTNj","column_KwxPwd"],"custom_css":[],"settings":{"title":"","heading_size":"h1","image_width":"half","image_ratio":"circle","columns_desktop":3,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":8}},"rich_text_tCgqVz":{"type":"rich-text","blocks":{"button_MHwdET":{"type":"button","settings":{"button_label":"VIEW ALL","buttonclr":"#000000","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["button_MHwdET"],"custom_css":[".button {background-color: #1a243f; color: white; font-size: 20px; font-weight: bold;}",".button:hover {background-color: #ad9779;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"underline":false,"padding_top":0,"padding_bottom":24,"body_text":"#000000"}},"image_richtext_xF4Qhm":{"type":"image-richtext","blocks":{"image_picker_qpwwbh":{"type":"image_picker","settings":{"image":"shopify:\/\/shop_images\/filee.jpg"}},"richtext_TnpwRn":{"type":"richtext","settings":{"imgrich":"<h1>Get news every day, Straight to your mailbox.<\/h1>"}},"text_qUxinn":{"type":"text","settings":{"imgtxt":"Subscribe to my Newsletter, we won’t spam. Promise!"}}},"block_order":["image_picker_qpwwbh","richtext_TnpwRn","text_qUxinn"],"custom_css":[".footer-top {display: flex; background-color: #1d2740; margin-bottom: 0; color: white;}",".image {padding-top: 40px; padding-right: 0; mix-blend-mode: color-burn;}",".richtext {padding-left: 20px;}",".richtext h1 {color: white;}",".text {padding-top: 40px; color: white;}"],"settings":{"heading":""}},"rich_text_WeTp8p":{"type":"rich-text","blocks":{"text_UjGmUY":{"type":"text","settings":{"text":"<p>HANDS-ON EXPERIENCE<\/p>","richcolor":"#000000"}},"heading_TGnemA":{"type":"heading","settings":{"heading":"Experience and Knowledge","heading_clr":"#000000","heading_size":"h1"}},"button_BmNja9":{"type":"button","settings":{"button_label":"","buttonclr":"#000000","button_link":"","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["text_UjGmUY","heading_TGnemA","button_BmNja9"],"custom_css":["h2 {color: #000000;}","div {color: #ad9779;}",".button {background: #ad9779; color: white; font-size: 20px; font-weight: bold;}",".button:hover {background-color: #05174b;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"underline":true,"padding_top":40,"padding_bottom":40,"body_text":"#000000"}},"image_dBKpGq":{"type":"image","blocks":{"image_picker_jWgEhR":{"type":"image_picker","settings":{"image":"shopify:\/\/shop_images\/bni.jpg"}},"image_picker_TxPYNb":{"type":"image_picker","settings":{"image":"shopify:\/\/shop_images\/knowledge.png"}},"image_picker_VYHXHA":{"type":"image_picker","settings":{"image":"shopify:\/\/shop_images\/topAvvo.png"}},"image_picker_rEbUMG":{"type":"image_picker","settings":{"image":"shopify:\/\/shop_images\/character.png"}},"image_picker_raxCF4":{"type":"image_picker","settings":{"image":"shopify:\/\/shop_images\/recommended.png"}},"image_picker_4mpHiz":{"type":"image_picker","settings":{"image":"shopify:\/\/shop_images\/BBBrating.png"}}},"block_order":["image_picker_jWgEhR","image_picker_TxPYNb","image_picker_VYHXHA","image_picker_rEbUMG","image_picker_raxCF4","image_picker_4mpHiz"],"settings":{"heading":""}},"rich_text_RehA8h":{"type":"rich-text","blocks":{"text_La383U":{"type":"text","settings":{"text":"<p>WHAT NEWS DO WE HAVE TODAY?<\/p>","richcolor":"#000000"}},"heading_B88HgE":{"type":"heading","settings":{"heading":"Latest News & Blog","heading_clr":"#000000","heading_size":"h1"}},"text_79pFpf":{"type":"text","settings":{"text":"<p>Read  our latest news<\/p>","richcolor":"#000000"}}},"block_order":["text_La383U","heading_B88HgE","text_79pFpf"],"custom_css":["h2 {color: #000000;}","div {color: #ad9779;}"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":true,"underline":true,"padding_top":40,"padding_bottom":52,"body_text":"#000000"}},"multicolumn_G9Mpyc":{"type":"multicolumn","blocks":{"column_EQ9TBE":{"type":"column","settings":{"heading":"","image":"shopify:\/\/shop_images\/photo11.jpg","title":"Know the Importance of Homeowner’s Insurance","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"Read More","link":""}},"column_XCW7WA":{"type":"column","settings":{"heading":"","image":"shopify:\/\/shop_images\/photo12.jpg","title":"Using Current Technology  for real Estate Transaction","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"Read More","link":""}},"column_cBgFnR":{"type":"column","settings":{"heading":"","image":"shopify:\/\/shop_images\/photo13.jpg","title":"The value of Homeowners Insurance","text":"<p>Know the Importance of Homeowner’s Insurance Do you have protection if your basement leaks, or your  if your basement leaks, or your problems<\/p>","link_label":"Read More","link":""}}},"block_order":["column_EQ9TBE","column_XCW7WA","column_cBgFnR"],"custom_css":[".link {color: #ad9779; font-weight: bold;}"],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"left","background_style":"none","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"img_with_text_2_DQ8GTh":{"type":"img-with-text-2","blocks":{"heading_dgE3gA":{"type":"heading","settings":{"heading":"<strong>What Clients Say\"<\/strong>","heading_size":"h1"}},"text_W8pwGD":{"type":"text","settings":{"text":"<p>When you hire our firm to manage your case, you have hired a team of legal advocates who care, who will keep you informed, who will fight for you<\/p>"}},"caption_r9B3T9":{"type":"caption","settings":{"caption":"When you hire our firm to mana","text_style":"subtitle","text_size":"large"}}},"block_order":["heading_dgE3gA","text_W8pwGD","caption_r9B3T9"],"custom_css":[".btn {margin-top: 50px; padding: 20px; background-color: white; color: #1d2740; font-size: 15px; font-weight: bold;}",".btn:hover {background-color: #ad9779; color: white;}",".rich-text__heading {color: #ad9779;}",".rich-text__blocks {background-color: #1d2740; padding: 50px; width: 450px; color: white;}",".right {margin-left: 0; background-color: white;}"],"settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"","full_width":true,"padding_top":40,"padding_bottom":52}}},"order":["image_with_text_LYL7BM","slideshow_6eeche","image_with_text_tUgpaF","rich_text_3mw6XJ","multicolumn_WiJWnn","rich_text_JkAqNc","multicolumn_qHeWq9","rich_text_tCgqVz","image_richtext_xF4Qhm","rich_text_WeTp8p","image_dBKpGq","rich_text_RehA8h","multicolumn_G9Mpyc","img_with_text_2_DQ8GTh"]}
+{
+  "sections": {
+    "image_with_text_LYL7BM": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/reason_picture.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_6eeche": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_7dV8dY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed.jpg",
+            "heading": "WELCOME TO SGK LEGAL",
+            "heading_size": "h1",
+            "subheading": "Focusing on the Legal needs of Individuals and small Business",
+            "button_label": "PRACTICE AREAS",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 60,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_8MNFyQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider2_01.jpg",
+            "heading": "DONT WORRY OUR TEAM IS HERE",
+            "heading_size": "h2",
+            "subheading": "To solve the legal issues for you",
+            "button_label": "PRACTICE AREA",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 30,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_7dV8dY",
+        "slide_8MNFyQ"
+      ],
+      "custom_css": [
+        ".slideshow__text {background-color: transparent; color: white; letter-spacing: 5px; transform-origin: 50% 50%; transform: translate(0px, 0px); font-size: 40px; font-weight: bold; width: 100%;}",
+        ".banner__heading {}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "custom_multicol_pCQFqz": {
+      "type": "custom_multicol",
+      "blocks": {
+        "column_CGQ6Eg": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "title": "REQUEST CONSULTATION",
+            "text": "<p>If you are in need of help from a lawyer, we will advise you free of charge regardless of the case. Grow organically the holistic world view.<\/p>",
+            "link_label": "Get In Touch",
+            "link": "",
+            "bottom_image": "shopify:\/\/shop_images\/h1_fancy1.jpg",
+            "image_size": "square"
+          }
+        },
+        "column_wmffU7": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "title": "40+ Years of Experience",
+            "text": "<p>Experienced Attorneys in New Jersey.We have the best skilled lawyers with many years of background knowledge and experience.<\/p>",
+            "link_label": "Read More",
+            "link": "",
+            "bottom_image": "shopify:\/\/shop_images\/h1_fancy2.jpg",
+            "image_size": "adapt"
+          }
+        },
+        "column_jdEVpe": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "title": "Experienced Attorneys",
+            "text": "<p>Our attorneys are accustomed to each other’s professional approach to a case which allows versatility and value-added service for our clients.<\/p>",
+            "link_label": "Read More",
+            "link": "",
+            "bottom_image": "shopify:\/\/shop_images\/h1_fancy3.jpg",
+            "image_size": "adapt"
+          }
+        }
+      },
+      "block_order": [
+        "column_CGQ6Eg",
+        "column_wmffU7",
+        "column_jdEVpe"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_tUgpaF": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_RiTUrU": {
+          "type": "caption",
+          "settings": {
+            "caption": "ABOUT SGKLEAL",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_cUjnXN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Focusing on the Legal Needs of Individuals and Small Business",
+            "heading_size": "h1"
+          }
+        },
+        "text_JAJNnU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a team, SGKLegal has worked together for over 40 years. Our attorneys are accustomed to each other’s professional approach to a case which allows versatility and value-added service for our clients. We can take care of matters quickly and efficiently, with an eye to saving money while providing a high degree of personal attention to our clients.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "text_6Beh3K": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Call us 24\/7. Let’s start fighting together<\/p>",
+            "text_style": "body"
+          }
+        },
+        "heading_ne49bt": {
+          "type": "heading",
+          "settings": {
+            "heading": "(732)613-8003 Or Book Appointment",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "caption_RiTUrU",
+        "heading_cUjnXN",
+        "text_JAJNnU",
+        "text_6Beh3K",
+        "heading_ne49bt"
+      ],
+      "custom_css": [
+        ".image-with-text__heading {color: #ad9779;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/uncle.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_3mw6XJ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_L4i4D9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>WHAT WE ARE EXPERT AT<\/p>",
+            "richcolor": "#000000"
+          }
+        },
+        "heading_DPkfXx": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Practice Area<\/strong>",
+            "heading_clr": "#000000",
+            "heading_size": "h1"
+          }
+        },
+        "caption_RiRwXE": {
+          "type": "caption",
+          "settings": {
+            "caption": "",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_mPUY9T": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are especially skilled in the following practice areas<\/p>",
+            "richcolor": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_L4i4D9",
+        "heading_DPkfXx",
+        "caption_RiRwXE",
+        "text_mPUY9T"
+      ],
+      "custom_css": [
+        "ext-th2 {color: #000000;}",
+        "div {color: #ad9779;}",
+        ".button:hover {background-color: #05174b;}",
+        ".rich-text__caption {text-align: center;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "underline": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "body_text": "#000000"
+      }
+    },
+    "multicolumn_WiJWnn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_r9AixL": {
+          "type": "column",
+          "settings": {
+            "heading": "Business & Commercial Law",
+            "image": "shopify:\/\/shop_images\/area_icon_02_9c2021a1-52de-44f3-86bb-6285038f599a.png",
+            "title": "",
+            "text": "<p>Business & Commercial Law If you need the assistance of…<\/p>",
+            "link_label": "Read More",
+            "link": ""
+          }
+        },
+        "column_MeNw88": {
+          "type": "column",
+          "settings": {
+            "heading": "Civil Litigation",
+            "image": "shopify:\/\/shop_images\/civil_law_white.svg",
+            "title": "",
+            "text": "<p>Civil Litigation Civil litigation is the process in which civil…<\/p>",
+            "link_label": "Read More",
+            "link": ""
+          }
+        },
+        "column_TeTGPR": {
+          "type": "column",
+          "settings": {
+            "heading": "Family Law & Divorce",
+            "image": "shopify:\/\/shop_images\/area_icon_01.png",
+            "title": "",
+            "text": "<p>Family Law & Divorce When you are involved with an…<\/p>",
+            "link_label": "Read More",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_r9AixL",
+        "column_MeNw88",
+        "column_TeTGPR"
+      ],
+      "custom_css": [
+        ".multicolumn-card {}",
+        ".multicolumn-card:hover {transition: background 0.5s ease; background: linear-gradient(45deg, #28334ed6 50%, #1d2740 50%); color: white;}",
+        ".media {background-color: #1d2740;}",
+        ".media:hover {background-color: #ad9779;}",
+        ".link {font-size: 20px; font-weight: bold; color: #ad9779;}",
+        ".link:hover {font-size: 20px; font-weight: bold; color: white; transition: border-bottom 0.3s ease;}",
+        ".button {background-color: #ad9779; font-size: 20px; font-weight: bold;}",
+        ".button:hover {background-color: #1d2740;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "view all",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_JkAqNc": {
+      "type": "rich-text",
+      "blocks": {
+        "text_GKWP9q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>OUR STRENGTH AND OUR KEY<\/p>",
+            "richcolor": "#000000"
+          }
+        },
+        "heading_xnqxGm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet Our Attorneys",
+            "heading_clr": "#000000",
+            "heading_size": "h1"
+          }
+        },
+        "button_3g9GFF": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "buttonclr": "#000000",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_GKWP9q",
+        "heading_xnqxGm",
+        "button_3g9GFF"
+      ],
+      "custom_css": [
+        "h2 {color: #000000;}",
+        "div {color: #ad9779;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "underline": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "body_text": "#000000"
+      }
+    },
+    "multicolumn_qHeWq9": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LNBeRe": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/alan.png",
+            "title": "Allan Gottlieb",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_REpTNj": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/Lawrence.png",
+            "title": "Lawrence Kroll",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KwxPwd": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/David.png",
+            "title": "David Sapiro",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LNBeRe",
+        "column_REpTNj",
+        "column_KwxPwd"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_tCgqVz": {
+      "type": "rich-text",
+      "blocks": {
+        "button_MHwdET": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW ALL",
+            "buttonclr": "#000000",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_MHwdET"
+      ],
+      "custom_css": [
+        ".button {background-color: #1a243f; color: white; font-size: 20px; font-weight: bold;}",
+        ".button:hover {background-color: #ad9779;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "underline": false,
+        "padding_top": 0,
+        "padding_bottom": 24,
+        "body_text": "#000000"
+      }
+    },
+    "image_richtext_xF4Qhm": {
+      "type": "image-richtext",
+      "blocks": {
+        "image_picker_qpwwbh": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/filee.jpg"
+          }
+        },
+        "richtext_TnpwRn": {
+          "type": "richtext",
+          "settings": {
+            "imgrich": "<h1>Get news every day, Straight to your mailbox.<\/h1>"
+          }
+        },
+        "text_qUxinn": {
+          "type": "text",
+          "settings": {
+            "imgtxt": "Subscribe to my Newsletter, we won’t spam. Promise!"
+          }
+        }
+      },
+      "block_order": [
+        "image_picker_qpwwbh",
+        "richtext_TnpwRn",
+        "text_qUxinn"
+      ],
+      "custom_css": [
+        ".footer-top {display: flex; background-color: #1d2740; margin-bottom: 0; color: white;}",
+        ".image {padding-top: 40px; padding-right: 0; mix-blend-mode: color-burn;}",
+        ".richtext {padding-left: 20px;}",
+        ".richtext h1 {color: white;}",
+        ".text {padding-top: 40px; color: white;}"
+      ],
+      "settings": {
+        "heading": ""
+      }
+    },
+    "rich_text_WeTp8p": {
+      "type": "rich-text",
+      "blocks": {
+        "text_UjGmUY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HANDS-ON EXPERIENCE<\/p>",
+            "richcolor": "#000000"
+          }
+        },
+        "heading_TGnemA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Experience and Knowledge",
+            "heading_clr": "#000000",
+            "heading_size": "h1"
+          }
+        },
+        "button_BmNja9": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "buttonclr": "#000000",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_UjGmUY",
+        "heading_TGnemA",
+        "button_BmNja9"
+      ],
+      "custom_css": [
+        "h2 {color: #000000;}",
+        "div {color: #ad9779;}",
+        ".button {background: #ad9779; color: white; font-size: 20px; font-weight: bold;}",
+        ".button:hover {background-color: #05174b;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "underline": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "body_text": "#000000"
+      }
+    },
+    "image_dBKpGq": {
+      "type": "image",
+      "blocks": {
+        "image_picker_jWgEhR": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bni.jpg"
+          }
+        },
+        "image_picker_TxPYNb": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/knowledge.png"
+          }
+        },
+        "image_picker_VYHXHA": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/topAvvo.png"
+          }
+        },
+        "image_picker_rEbUMG": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/character.png"
+          }
+        },
+        "image_picker_raxCF4": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/recommended.png"
+          }
+        },
+        "image_picker_4mpHiz": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BBBrating.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_picker_jWgEhR",
+        "image_picker_TxPYNb",
+        "image_picker_VYHXHA",
+        "image_picker_rEbUMG",
+        "image_picker_raxCF4",
+        "image_picker_4mpHiz"
+      ],
+      "settings": {
+        "heading": ""
+      }
+    },
+    "rich_text_RehA8h": {
+      "type": "rich-text",
+      "blocks": {
+        "text_La383U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>WHAT NEWS DO WE HAVE TODAY?<\/p>",
+            "richcolor": "#000000"
+          }
+        },
+        "heading_B88HgE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Latest News & Blog",
+            "heading_clr": "#000000",
+            "heading_size": "h1"
+          }
+        },
+        "text_79pFpf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Read  our latest news<\/p>",
+            "richcolor": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_La383U",
+        "heading_B88HgE",
+        "text_79pFpf"
+      ],
+      "custom_css": [
+        "h2 {color: #000000;}",
+        "div {color: #ad9779;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "underline": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "body_text": "#000000"
+      }
+    },
+    "img_with_text_2_DQ8GTh": {
+      "type": "img-with-text-2",
+      "blocks": {
+        "heading_dgE3gA": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>What Clients Say\"<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_W8pwGD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When you hire our firm to manage your case, you have hired a team of legal advocates who care, who will keep you informed, who will fight for you<\/p>"
+          }
+        },
+        "caption_r9B3T9": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "As a team, SGKLegal has worked together for over 40 years. Our attorneys are accustomed to each other’s professional approach to a case which allows versatility and value-added service for our clients. We can take care of matters quickly and efficiently, with an eye to saving money while providing a high degree of personal attention to our clients.",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dgE3gA",
+        "text_W8pwGD",
+        "caption_r9B3T9"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".btn {margin-top: 50px; padding: 10px; background-color: white; color: #1d2740; font-size: 15px; font-weight: bold; width: 250px;}",
+        ".btn:hover {background-color: #ad9779; color: white;}",
+        ".rich-text__heading {color: #ad9779;}",
+        ".rich-text__blocks {background-color: #1d2740; padding: 50px; width: 450px; color: white;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_G9Mpyc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EQ9TBE": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/photo11.jpg",
+            "title": "Know the Importance of Homeowner’s Insurance",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "Read More",
+            "link": ""
+          }
+        },
+        "column_XCW7WA": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/photo12.jpg",
+            "title": "Using Current Technology  for real Estate Transaction",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "Read More",
+            "link": ""
+          }
+        },
+        "column_cBgFnR": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "image": "shopify:\/\/shop_images\/photo13.jpg",
+            "title": "The value of Homeowners Insurance",
+            "text": "<p>Know the Importance of Homeowner’s Insurance Do you have protection if your basement leaks, or your  if your basement leaks, or your problems<\/p>",
+            "link_label": "Read More",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_EQ9TBE",
+        "column_XCW7WA",
+        "column_cBgFnR"
+      ],
+      "custom_css": [
+        ".link {color: #ad9779; font-weight: bold;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_with_text_LYL7BM",
+    "slideshow_6eeche",
+    "custom_multicol_pCQFqz",
+    "image_with_text_tUgpaF",
+    "rich_text_3mw6XJ",
+    "multicolumn_WiJWnn",
+    "rich_text_JkAqNc",
+    "multicolumn_qHeWq9",
+    "rich_text_tCgqVz",
+    "image_richtext_xF4Qhm",
+    "rich_text_WeTp8p",
+    "image_dBKpGq",
+    "rich_text_RehA8h",
+    "img_with_text_2_DQ8GTh",
+    "multicolumn_G9Mpyc"
+  ]
+}

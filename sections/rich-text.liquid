@@ -1,28 +1,28 @@
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-      color:{{section.settings.body_text}};
-    }
-  .rich-text__button{
-      border-bottom: 2px solid  "#AD9779";
-    }
-  .divider{
-    width:150px;
-    height:3px;
-    background-color:#AD9779;
-    display:inline-block;
-    margin-left:550px;
-  }
-
-    @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top }}px;
-        padding-bottom: {{ section.settings.padding_bottom }}px;
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+        color:{{section.settings.body_text}};
       }
+    .rich-text__button{
+        border-bottom: 2px solid  "#AD9779";
+      }
+    .divider{
+      width:150px;
+      height:3px;
+      background-color:#AD9779;
+      display:inline-block;
+      margin-left:550px;
     }
+  .
+      @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top }}px;
+          padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+      }
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
@@ -44,7 +44,7 @@
               </h2>
             {%- when 'caption' -%}
               <h5
-                class="rich-text__caption{{ block.settings.richcolor }} {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="caption rich-text__caption{{ block.settings.richcolor }} {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -53,6 +53,7 @@
               >
                 {{ block.settings.caption | escape }}
               </h5>
+
             {%- when 'text' -%}
               <div
                 class="rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -65,6 +66,7 @@
                 {{ block.settings.text -}}
                 {{- block.settings.body_text }}
               </div>
+
             {%- when 'button' -%}
               <div
                 class="rich-text__button{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
