@@ -7,7 +7,7 @@
           <p>{{ block.settings.text }}</p>
         </div>
       {% elsif block.type == 'image_picker' -%}
-        <div class="container">
+        <div class="contain">
           <div class="img">
             {{
               block.settings.image
@@ -31,6 +31,10 @@
     display: flex;
     margin-top:0;
     flex-direction: row;
+  }
+  .contain{
+    justify-content:space-between;
+
   }
   .img{
       display:flex;
