@@ -7,15 +7,17 @@
           <p>{{ block.settings.text }}</p>
         </div>
       {% elsif block.type == 'image_picker' -%}
-        <div class="img">
-          {{
-            block.settings.image
-            | image_url: width: 20
-            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-          }}
-        </div>
-        <div class="txt">
-          <p>{{ block.settings.richtxt }}</p>
+        <div class="container">
+          <div class="img">
+            {{
+              block.settings.image
+              | image_url: width: 20
+              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+            }}
+          </div>
+          <div class="txt">
+            <p>{{ block.settings.richtxt }}</p>
+          </div>
         </div>
       {% endif %}
     {% endfor %}
@@ -24,15 +26,14 @@
 
 <style>
   .container{
-
     background-color:#1a243f;
     color:white;
-     display: flex;
-     margin-top:0;
-     flex-direction: row;
-
+    display: flex;
+    margin-top:0;
+    flex-direction: row;
   }
   .img{
+      display:flex;
       margin-top:20px;
    }
   .img:hover{
