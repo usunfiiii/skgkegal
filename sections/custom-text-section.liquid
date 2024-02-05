@@ -19,7 +19,7 @@
         </div>
       {% endif %}
     {% endfor %}
-    <button class="btn" style="display:inline-block">REQUEST CONSULTATION</button>
+    <button class="btn" style="display:inline-block">{{ block.settings.text }}</button>
   </div>
 </footer>
 
@@ -96,6 +96,11 @@
         {
           "type":"richtext",
           "id":"richtxt",
+          "label":"Add text"
+        },
+        {
+          "type":"richtext",
+          "id":"text",
           "label":"Add text"
         }
       ]
