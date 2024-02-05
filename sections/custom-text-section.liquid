@@ -7,15 +7,17 @@
           <p>{{ block.settings.text }}</p>
         </div>
       {% elsif block.type == 'image_picker' -%}
-        <div class="img">
-          {{
-            block.settings.image
-            | image_url: width: 20
-            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-          }}
-        </div>
-        <div class="txt">
-          <p>{{ block.settings.richtxt }}</p>
+        <div class="ul">
+          <div class="img">
+            {{
+              block.settings.image
+              | image_url: width: 20
+              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+            }}
+          </div>
+          <div class="txt">
+            <p>{{ block.settings.richtxt }}</p>
+          </div>
         </div>
       {% endif %}
     {% endfor %}
