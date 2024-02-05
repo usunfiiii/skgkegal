@@ -702,8 +702,7 @@
         ".btn {margin-top: 50px; padding: 10px; background-color: white; color: #1d2740; font-size: 15px; font-weight: bold; width: 250px;}",
         ".btn:hover {background-color: #ad9779; color: white;}",
         ".rich-text__heading {color: #ad9779;}",
-        ".rich-text__blocks {background-color: #1d2740; padding: 50px; width: 450px; color: white;}",
-        ".right {display: flex; flex-direction: row;}"
+        ".rich-text__blocks {background-color: #1d2740; padding: 50px; width: 450px; color: white;}"
       ],
       "settings": {
         "desktop_content_position": "left",
