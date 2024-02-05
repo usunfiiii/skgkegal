@@ -699,6 +699,7 @@
         "text_W8pwGD",
         "caption_r9B3T9"
       ],
+      "disabled": true,
       "custom_css": [
         ".btn {margin-top: 50px; padding: 10px; background-color: white; color: #1d2740; font-size: 15px; font-weight: bold; width: 250px;}",
         ".btn:hover {background-color: #ad9779; color: white;}",
