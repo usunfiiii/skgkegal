@@ -1,30 +1,28 @@
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-     .section-{{ section.id }}-padding {
-       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-       color:{{section.settings.body_text}};
-     }
-   .rich-text__button{
-       border-bottom: 2px solid  "#AD9779";
-     }
-   .divider{
-     width:150px;
-     height:3px;
-     background-color:#AD9779;
-     display:inline-block;
-     margin-left:550px;
-   }
-  .rich-text__caption {
-       float:right;
-  }
-     @media screen and (min-width: 750px) {
-       .section-{{ section.id }}-padding {
-         padding-top: {{ section.settings.padding_top }}px;
-         padding-bottom: {{ section.settings.padding_bottom }}px;
-       }
-     }
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+        color:{{section.settings.body_text}};
+      }
+    .rich-text__button{
+        border-bottom: 2px solid  "#AD9779";
+      }
+    .divider{
+      width:150px;
+      height:3px;
+      background-color:#AD9779;
+      display:inline-block;
+      margin-left:550px;
+    }
+  .
+      @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top }}px;
+          padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+      }
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
@@ -113,6 +111,13 @@
 {% if section.settings.underline %}
   <span class="divider"></span>
 {% endif %}
+<div class="right">
+  <p>Hire this excellent family law attorney! I did!</p>
+  <p>
+    I hired Larry to help me with my divorce and custody needs. He was dedicated, focused on getting through the process
+    with an unwilling divorce partner. Excellent person to have defending you.
+  </p>
+</div>
 
 {% schema %}
 {
