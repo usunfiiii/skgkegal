@@ -65,10 +65,11 @@
       ],
       "custom_css": [
         ".slideshow__text {background-color: transparent; color: white; letter-spacing: 5px; transform-origin: 50% 50%; transform: translate(0px, 0px); font-size: 40px; font-weight: bold; width: 100%;}",
-        ".banner__heading {}"
+        ".banner__heading {color:white;}",
+        ".banner__text{display:flex;}"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": true,
@@ -313,7 +314,7 @@
         ".link:hover {font-size: 20px; font-weight: bold; color: white; transition: border-bottom 0.3s ease;}",
         ".button {background-color: #ad9779; font-size: 20px; font-weight: bold;}",
         ".button:hover {background-color: #1d2740;}",
-        ".multicolumn-card{padding-top:20px;}"
+        ".multicolumn-card {padding-top: 20px;}"
       ],
       "settings": {
         "title": "",
