@@ -189,7 +189,7 @@
         "heading_ne49bt"
       ],
       "custom_css": [
-        ".image-with-text__heading {color: #ad9779;}"
+        ".caption{font-size:15px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/uncle.jpg",
