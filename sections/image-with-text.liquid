@@ -14,7 +14,7 @@
   }
   .image-with-text-caption{
     color:#ad9779;
-    letter-spacing: 2px;
+    letter-spacing:2px;
   }
   image-with-text__text{
     color:#1a243f;
@@ -85,7 +85,7 @@
                     class="image-with-text-caption image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.caption | escape }}
+                    <h3>{{ block.settings.caption | escape }}</h3>
                   </h4>
                 {%- when 'text' -%}
                   <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
