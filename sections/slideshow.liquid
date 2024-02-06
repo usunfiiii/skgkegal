@@ -42,6 +42,13 @@
       >
         {% render 'icon-caret' %}
       </button>
+      <button
+        type="button"
+        class="btn"
+        name="next"
+      >
+        ABOUT LAW FORM
+      </button>
       <div class="slider-counter slider-counter--{{ section.settings.slider_visual }}{% if section.settings.slider_visual == 'counter' or section.settings.slider_visual == 'numbers' %} caption{% endif %}">
         {%- if section.settings.slider_visual == 'counter' -%}
           <span class="slider-counter--current">1</span>
@@ -66,13 +73,7 @@
           </div>
         {%- endif -%}
       </div>
-      <button
-        type="button"
-        class="btn"
-        name="next"
-      >
-        ABOUT LAW FORM
-      </button>
+
       <button
         type="button"
         class="slider-button slider-button--next"
