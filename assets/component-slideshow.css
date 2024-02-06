@@ -45,9 +45,9 @@ slideshow-component .slideshow.banner {
   z-index: 12;
     font-family: "Cormorant Infant";
     /* height: auto; */
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    white-space: normal;
+    /* color: rgb(255, 255, 255);
+    text-decoration: none; */
+    /* white-space: normal; */
     /* width: 979px;
     min-height: 0px;
     min-width: 0px;
@@ -59,11 +59,11 @@ slideshow-component .slideshow.banner {
     font-weight: 700;
     font-size: 60px;
     backdrop-filter: none;
-    filter: none;
+    /* filter: none;
     transform-origin: 50% 50%;
     opacity: 1;
     transform: translate(0px, 0px);
-    visibility: visible;
+    visibility: visible; */
 }
 
 .slideshow__text > * {
