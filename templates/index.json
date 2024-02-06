@@ -561,7 +561,7 @@
         "div {color: #ad9779;}",
         ".button {background: #ad9779; color: white; font-size: 20px; font-weight: bold;}",
         ".button:hover {background-color: #05174b;}",
-        ".rich-text-text {font-size: 14px; text-transform: uppercase; color: var(--primary-color); letter-spacing: 0.2em; margin-bottom: 4px; position: relative;}"
+        ".rich-text-text {font-size: 14px; text-transform: uppercase; color: var(--primary-color); letter-spacing: 3px; margin-bottom: 4px; position: relative;}"
       ],
       "settings": {
         "desktop_content_position": "center",
