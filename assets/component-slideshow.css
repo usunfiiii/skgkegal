@@ -39,10 +39,10 @@ slideshow-component .slideshow.banner {
 }
 
 .slideshow__text.banner__box {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 54.5rem; */
+
 }
 
 .slideshow__text > * {
