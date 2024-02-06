@@ -24,43 +24,45 @@
 </footer>
 
 <style>
-     .container{
-       background-color:#1a243f;
-       color:white;
-       display: flex;
-       height:50px;
-       padding-left:5px;
-       padding-right:5px;
-       justify-content:space-between;
-       flex-direction: row;
+       .container{
+         background-color:#1a243f;
+         color:white;
+         display: flex;
+         height:50px;
+         padding-left:5px;
+         padding-right:5px;
+         justify-content:space-between;
+         flex-direction: row;
+    }
+       .img{
+         display:flex;
+         margin-top:20px;
+       }
+       .img:hover{
+         font-weight:bold;
+       }
+       .btn{
+           background-color:#ad9779;
+           color:#ffffff;
+           font-size:15px;
+           width:500px;
+           border-style:none;
+           margin:0;
+
+         /* display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex; */
+      /* display: flex;
+      flex-wrap: wrap; */
+         transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,transform var(--e-transform-transition-duration, .4s);
   }
-     .img{
-       display:flex;
-       margin-top:20px;
-     }
-     .img:hover{
-       font-weight:bold;
-     }
-     .btn{
-         background-color:#ad9779;
-         color:#ffffff;
-         font-size:15px;
-         width:500px;
-         border-style:none;
-         margin:0;
 
-       /* display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex; */
-    /* display: flex;
-    flex-wrap: wrap; */
+       }
 
-     }
-
-     .txt:hover{
-       font-weight:bold;
-     }
+       .txt:hover{
+         font-weight:bold;
+       }
 </style>
 
 {% schema %}
