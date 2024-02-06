@@ -12,7 +12,7 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-  .image-with-text{
+  .image-with-text-caption{
     color:#ad9779;
   }
   image-with-text__text{
@@ -81,7 +81,7 @@
                   </h3>
                 {%- when 'caption' -%}
                   <h4
-                    class="image-with-text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+                    class="image-with-text-caption image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
                     {{ block.shopify_attributes }}
                   >
                     {{ block.settings.caption | escape }}
