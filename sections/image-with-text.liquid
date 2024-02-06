@@ -84,16 +84,15 @@
                     {{ block.settings.heading }}
                   </h3>
                 {%- when 'caption' -%}
-                  <!--
-                    <h4
-                      class="image-with-text-caption image-with-text__text--caption "
-                      {{ block.shopify_attributes }} >
-                      {{ block.settings.caption | escape }}
-                    </h4>
-                  -->
-                  {{ block.settings.caption | escape }}
+                  <h4
+                    class="caption"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.caption | escape }}
+                  </h4>
+
                 {%- when 'text' -%}
-                  <div class="image-with-text-txt rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                  <div class="text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}
