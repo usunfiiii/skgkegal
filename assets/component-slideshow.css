@@ -44,7 +44,7 @@ slideshow-component .slideshow.banner {
   justify-content: center;
   z-index: 12;
     font-family: "Cormorant Infant";
-    height: auto;
+    /* height: auto; */
     color: rgb(255, 255, 255);
     text-decoration: none;
     white-space: normal;
@@ -53,8 +53,8 @@ slideshow-component .slideshow.banner {
     min-width: 0px;
     max-height: none;
     max-width: none; */
-    text-align: left;
-    line-height: 75px;
+    /* text-align: left; */
+    /* line-height: 75px; */
     letter-spacing: 1px;
     font-weight: 700;
     font-size: 60px;
