@@ -48,11 +48,11 @@ slideshow-component .slideshow.banner {
     color: rgb(255, 255, 255);
     text-decoration: none;
     white-space: normal;
-    width: 979px;
+    /* width: 979px;
     min-height: 0px;
     min-width: 0px;
     max-height: none;
-    max-width: none;
+    max-width: none; */
     text-align: left;
     line-height: 75px;
     letter-spacing: 1px;
