@@ -189,7 +189,7 @@
         "heading_ne49bt"
       ],
       "custom_css": [
-        ".caption{font-size:15px;}"
+        ".caption {font-size: 15px; padding-top: 0; padding-bottom: 0;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/uncle.jpg",
@@ -228,7 +228,7 @@
         "caption_RiRwXE": {
           "type": "caption",
           "settings": {
-            "caption": "",
+            "caption": "We are especially skilled in the following practice areas",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -236,7 +236,7 @@
         "text_mPUY9T": {
           "type": "text",
           "settings": {
-            "text": "<p>We are especially skilled in the following practice areas<\/p>",
+            "text": "",
             "richcolor": "#000000"
           }
         }
@@ -251,7 +251,8 @@
         "ext-th2 {color: #000000;}",
         "div {color: #ad9779;}",
         ".button:hover {background-color: #05174b;}",
-        ".rich-text__caption {text-align: center;}"
+        ".rich-text__caption {text-align: center;}",
+        ".rich-text__text {color: black;}"
       ],
       "settings": {
         "desktop_content_position": "center",
