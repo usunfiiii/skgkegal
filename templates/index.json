@@ -310,7 +310,7 @@
       ],
       "custom_css": [
         ".multicolumn-card:hover {transition: background 0.5s ease; background: linear-gradient(45deg, #28334ed6 50%, #1d2740 50%); color: white;}",
-        ".media {background-color: #1d2740; border-radius: 0%;}",
+        ".media {background-color: #1d2740; }",
         ".media:hover {background-color: #ad9779;}",
         ".link {font-size: 20px; font-weight: bold; color: #ad9779;}",
         ".link:hover {font-size: 20px; font-weight: bold; color: white; transition: border-bottom 0.3s ease;}",
