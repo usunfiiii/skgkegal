@@ -64,8 +64,8 @@
         "slide_8MNFyQ"
       ],
       "custom_css": [
-        ".slideshow__text {background-color: transparent; color: white; letter-spacing: 5px; transform-origin: 50% 50%; transform: translate(0px, 0px); font-size: 40px; font-weight: bold; width: 100%;}",
-        ".banner__heading {color: white; font-size: 20px; letter-spacing:3px;}",
+        ".slideshow__text {background-color: transparent; color: white; letter-spacing: 2px; display: flex; font-size: 40px; font-weight: bold; width: 100%;}",
+        ".banner__heading {color: white; font-size: 20px; letter-spacing: 3px;}",
         ".banner__text {width: 100%;}"
       ],
       "settings": {
