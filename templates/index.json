@@ -649,12 +649,21 @@
             "text": "<p>Read  our latest news<\/p>",
             "richcolor": "#000000"
           }
+        },
+        "caption_mfXYNp": {
+          "type": "caption",
+          "settings": {
+            "caption": "Read our Latest news",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
         }
       },
       "block_order": [
         "text_La383U",
         "heading_B88HgE",
-        "text_79pFpf"
+        "text_79pFpf",
+        "caption_mfXYNp"
       ],
       "custom_css": [
         "h2 {color: #000000;}",
