@@ -58,7 +58,7 @@ slideshow-component .slideshow.banner {
     letter-spacing: 1px;
     font-weight: 700;
     font-size: 60px;
-    backdrop-filter: none;
+    /* backdrop-filter: none; */
     /* filter: none;
     transform-origin: 50% 50%;
     opacity: 1;
