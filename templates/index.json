@@ -253,7 +253,8 @@
         ".button:hover {background-color: #05174b;}",
         ".rich-text__caption {text-align: center;}",
         ".rich-text__text {color: black;}",
-        ".rich-text-text {font-size: 14px; text-transform: uppercase; color: var(--primary-color); letter-spacing: 0.2em; margin-bottom: 4px; position: relative;}"
+        ".rich-text-text {font-size: 14px; text-transform: uppercase; color: var(--primary-color); letter-spacing: 0.2em; margin-bottom: 4px; position: relative;}",
+        ".caption{color:black;}"
       ],
       "settings": {
         "desktop_content_position": "center",
