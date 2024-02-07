@@ -133,9 +133,10 @@
                     <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                   {%- endif -%}
                 </div>
+
                 {%- if block.settings.text != blank -%}
                   <div class="container2">
-                  <div class="rte">{{ block.settings.text }}</div>
+                    <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a
@@ -146,11 +147,10 @@
                       href="{{ block.settings.link }}"
                     {% endif %}
                   >
-                   </div>
                     {{- block.settings.link_label | escape -}}
                     <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
                   >
-                 
+                  </div>
                 {%- endif -%}
                 {% if block.settings.bottom_image != 'blank' %}
                   {{
