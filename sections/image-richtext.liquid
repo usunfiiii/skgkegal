@@ -1,4 +1,4 @@
-<div class="width">
+<div class="bg">
   <div class="footer-t">
     {% for block in section.blocks %}
       {% if block.type == 'image_picker' -%}
@@ -24,7 +24,7 @@
   </div>
 </div>
 <style>
-  .width{
+  .bg{
     background: url('{{ section.settings.bgimage | img_url: 'master' }}');
   }
     .footer-t {
