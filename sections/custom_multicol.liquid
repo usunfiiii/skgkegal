@@ -153,11 +153,13 @@
                   </div>
                 {%- endif -%}
                 {% if block.settings.bottom_image != 'blank' %}
-                  {{
-                    block.settings.bottom_image
-                    | image_url: width: 350
-                    | image_tag: sizes: sizes, class: 'multicolumn-card__image'
-                  }}
+                  <div class="img" style="height = 253 , width=768">
+                    {{
+                      block.settings.bottom_image
+                      | image_url: width: 350
+                      | image_tag: sizes: sizes, class: 'multicolumn-card__image'
+                    }}
+                  </div>
                 {% endif %}
               </div>
             </div>
