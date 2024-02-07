@@ -523,7 +523,8 @@
         ".image {padding-top: 40px; padding-right: 0; mix-blend-mode: color-burn;}",
         ".richtext {padding-left: 20px;}",
         ".richtext h1 {color: white;}",
-        ".text {padding-top: 40px; color: white;}"
+        ".text {padding-top: 40px; color: white;}",
+        ".width {background-image: linear-gradient(90deg, #1a243fd9 0%, #1a243f 100%); opacity: 1; mix-blend-mode: multiply; transition: background 0.3s, border-radius 0.3s, opacity 0.3s;}"
       ],
       "settings": {
         "heading": ""
