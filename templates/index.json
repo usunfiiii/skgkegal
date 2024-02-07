@@ -534,7 +534,8 @@
         ".text {padding-top: 40px; color: white;}"
       ],
       "settings": {
-        "heading": ""
+        "heading": "",
+        "bgimage": "shopify:\/\/shop_images\/news_bg_fa127119-d870-48dd-9c70-b20330917cfc.jpg"
       }
     },
     "rich_text_WeTp8p": {
