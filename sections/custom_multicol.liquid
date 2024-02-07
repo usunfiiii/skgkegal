@@ -126,11 +126,7 @@
                 <div class="container">
                   <div class="image">
                     {% if block.settings.image %}
-                      {{
-                        block.settings.image
-                        | image_url: width: 50
-                        | image_tag: sizes: sizes, class: 'multicolumn-card__image'
-                      }}
+                      {{ block.settings.image | image_url: width: 50 | image_tag: sizes: sizes }}
                     {% endif %}
                   </div>
                   {%- if block.settings.title != blank -%}
