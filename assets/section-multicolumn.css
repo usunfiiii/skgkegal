@@ -131,10 +131,10 @@
   margin: 0;
 }
 
-.multicolumn-card__info {
+/* .multicolumn-card__info {
   padding: 2.5rem;
 }
-
+ */
 .background-none .multicolumn-card__info {
   padding-top: 0;
   padding-left: 0;
