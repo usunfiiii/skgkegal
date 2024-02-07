@@ -201,9 +201,9 @@
         "heading_ne49bt"
       ],
       "custom_css": [
-        ".caption {font-size: 15px;}",
-        ".text {color: black;}",
-        ".h2{color:#ad9779}"
+        ".caption {font-size: 15px; margin-bottom:0;}",
+        ".text {color: black; padding-top:0; margin-top:0;}",
+        ".h2 {color: #ad9779;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/uncle.jpg",
