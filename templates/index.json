@@ -260,10 +260,8 @@
         "text_mPUY9T"
       ],
       "custom_css": [
-        ".button:hover {background-color: #05174b;}",
-        ".rich-text__caption {text-align: center;}",
-        ".rich-text__text {color: black;}",
-        ".rich-text-text {font-size: 14px; text-transform: uppercase; color: var(--primary-color); letter-spacing: 0.2em; margin-bottom: 4px; position: relative;}",
+        ".rich-text__caption {text-align: center; color: #ad9779;}",
+        ".rich-text-text {font-size: 14px; text-transform: uppercase; color: #ad9779; letter-spacing: 0.2em; margin-bottom: 4px; position: relative;}",
         ".caption {color: black;}"
       ],
       "settings": {
