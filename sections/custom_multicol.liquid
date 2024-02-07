@@ -14,7 +14,7 @@
       }
     }
   .inline-richtext{
-        font-size: 25px;
+        font-size: 20px;
       margin-bottom: 10px;
   }
 {%- endstyle -%}
@@ -122,7 +122,7 @@
                     <div class="image">
                       {{
                         block.settings.image
-                        | image_url: width: 100
+                        | image_url: width: 80
                         | image_tag: sizes: sizes, class: 'multicolumn-card__image'
                       }}
                     </div>
