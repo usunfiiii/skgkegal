@@ -1,5 +1,5 @@
 <div class="width" style="background-image: url('C:\Users\Administrator\Downloads\news_bg.jpg');">
-  <div class="footer-top">
+  <div class="footer-t">
     {% for block in section.blocks %}
       {% if block.type == 'image_picker' -%}
         <div class="image">
@@ -24,7 +24,7 @@
   </div>
 </div>
 <style>
-    .footer-top {
+    .footer-t {
     display: flex;
     background-color: #1d2740;
     margin-bottom: 0;
@@ -34,7 +34,7 @@
   .image {
     padding-top: 40px;
     padding-right: 0;
-    mix-blend-mode: color-burn;
+    /* mix-blend-mode: color-burn; */
   }
   .richtext {
     padding-left: 20px;
