@@ -123,18 +123,20 @@
                 -->
               {%- endif -%}
               <div class="multicolumn-card__info">
-                <div class="image">
-                  {% if block.settings.image %}
-                    {{
-                      block.settings.image
-                      | image_url: width: 50
-                      | image_tag: sizes: sizes, class: 'multicolumn-card__image'
-                    }}
-                  {% endif %}
+                <div class="container">
+                  <div class="image">
+                    {% if block.settings.image %}
+                      {{
+                        block.settings.image
+                        | image_url: width: 50
+                        | image_tag: sizes: sizes, class: 'multicolumn-card__image'
+                      }}
+                    {% endif %}
+                  </div>
+                  {%- if block.settings.title != blank -%}
+                    <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                  {%- endif -%}
                 </div>
-                {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
-                {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
