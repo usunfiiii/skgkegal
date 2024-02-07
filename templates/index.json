@@ -477,8 +477,9 @@
         "button_MHwdET"
       ],
       "custom_css": [
-        ".button {background-color: #1a243f; color: white; font-size: 20px; font-weight: bold;}",
-        ".button:hover {background-color: #ad9779;}"
+        ".button {background-color: #1a243f; color: white; font-size: 20px; font-weight: bold; position:relative; display:block; overflow:hidden; }",
+        ".button:hover {background-color: #ad9779;}",
+        ".isolate{position:absolute; left:50%; top:50%; transform: translate(-50%,-50%);}"
       ],
       "settings": {
         "desktop_content_position": "center",
