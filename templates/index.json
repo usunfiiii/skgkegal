@@ -202,7 +202,7 @@
       ],
       "custom_css": [
         ".caption {font-size: 15px;}",
-        ".text{color:black;}"
+        ".text {color: black;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/uncle.jpg",
@@ -512,12 +512,19 @@
           "settings": {
             "imgtxt": "Subscribe to my Newsletter, we won’t spam. Promise!"
           }
+        },
+        "image_picker_e4A4Ed": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/news_bg_fa127119-d870-48dd-9c70-b20330917cfc.jpg"
+          }
         }
       },
       "block_order": [
         "image_picker_qpwwbh",
         "richtext_TnpwRn",
-        "text_qUxinn"
+        "text_qUxinn",
+        "image_picker_e4A4Ed"
       ],
       "custom_css": [
         ".footer-top {display: flex; background-color: #1d2740; margin-bottom: 0; color: white;}",
