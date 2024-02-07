@@ -134,7 +134,7 @@
         ".container2 {background-color: #1a243f; margin-top: 0; padding: 15px; color: white;}",
         ".link {color: #ad9779;}",
         ".link:hover {color: #ffffff;}",
-        ".img {}"
+        ".img {margin:0;}"
       ],
       "settings": {
         "title": "",
