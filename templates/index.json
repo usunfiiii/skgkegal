@@ -88,7 +88,7 @@
             "heading": "",
             "image": "shopify:\/\/shop_images\/file_11ce4e81-0b4e-4d21-8c92-34a46075f591.jpg",
             "title": "Request Consultation",
-            "text": "<p>If you are in need of help from a lawyer, we will advise you free of charge regardless of the case. Grow organically the holistic world view.<\/p>",
+            "text": "<p>If you are in need of help from a lawyer, we will advise you free of charge regardless of the case. Grow.<\/p>",
             "link_label": "Get In Touch",
             "link": "",
             "bottom_image": "shopify:\/\/shop_images\/h1_fancy1.jpg",
@@ -134,7 +134,7 @@
         ".container2 {background-color: #1a243f; margin-top: 0; padding: 15px; color: white;}",
         ".link {color: #ad9779;}",
         ".link:hover {color: #ffffff;}",
-        ".img {margin:0;}"
+        ".img {margin: 0;}"
       ],
       "settings": {
         "title": "",
