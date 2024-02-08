@@ -130,7 +130,7 @@
       "custom_css": [
         ".image {padding-top: 10px; padding-left: 0; padding-right: 0; padding-bottom: 5px; \/* background-color:#ad9779; *\/}",
         ".inline-richtext {margin: 0; font-size: 20px; color: #fff; padding: 5px 30px;}",
-        ".container {height: 100px; width: 100%; background-color: #2a334d; padding: 20px; margin-top: -150px; z-index:-1 ;}",
+        ".container {height: 100px; width: 100%; background-color: #2a334d; padding: 20px; \/* margin-top: -150px; z-index: -1; *\/}",
         ".container2 {background-color: #1a243f; margin-top: 0; padding: 15px; color: white;}",
         ".link {color: #ad9779;}",
         ".link:hover {color: #ffffff;}",
