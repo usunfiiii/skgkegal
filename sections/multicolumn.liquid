@@ -22,21 +22,21 @@
     .heading:hover{
       color:#ad9779;
     }
-    .center{
+    .rich-text__button {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: 50px;
   }
-  .b {
+  .button {
     position: relative;
     background-color: #ad9779;
     margin-left: 20%;
     overflow: hidden;
     transition: 1s all ease;
   }
-  .b::before {
+  .button::before {
     background: #ad9779;
     content: "";
     position: absolute;
@@ -47,7 +47,7 @@
     height: 0%;
     transform: translate(-50%, -50%) rotate(45deg);
   }
-  .b:hover::before {
+  .button:hover::before {
     height: 380%;
   }
 {%- endstyle -%}
@@ -234,9 +234,7 @@
         </a>
       {%- endif -%}
       {%- if section.settings.button != blank -%}
-        <div class="center">
-          <div class="b">{{ section.settings.button }}</div>
-        </div>
+        <div class="button">{{ section.settings.button }}</div>
       {%- endif -%}
     </div>
   </div>
