@@ -124,9 +124,9 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 <div class="container">
-                  <div class="img">
+                  <div class="topimage">
                     <div class="image">
-                      {% if block.settings.image %}
+                      {% if block.settings.image != blank %}
                         {{ block.settings.image | image_url: width: 50 | image_tag: sizes: sizes }}
                       {% endif %}
                     </div>
