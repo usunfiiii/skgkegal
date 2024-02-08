@@ -320,7 +320,7 @@
         "column_TeTGPR"
       ],
       "custom_css": [
-        ".button {color: white; background-color: #ad9779; margin-left: 40%; font-size:20px; padding:auto; margin-top:20px;}",
+        ".button {color: white; background-color: #ad9779; margin-left: 20%; font-size: 20px; padding: auto; margin-top: 20px;}",
         ".button:hover {background-color: #1d2740;}"
       ],
       "settings": {
