@@ -50,6 +50,9 @@
           </a>
         {%- endif -%}
       </div>
+      {%- if section.settings.button != blank -%}
+        <div class="button">{{ section.settings.button }}</div>
+      {%- endif -%}
     {%- endunless -%}
 
     <slider-component class="slider-mobile-gutter">
