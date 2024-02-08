@@ -680,7 +680,7 @@
       "custom_css": [
         ".rich-text-text {color: #ad9779; letter-spacing: 0.2em; margin-bottom: 4px;}",
         ".subtitle {color: black;}",
-        ".caption{align-item:center;}"
+        ".caption {align-item: center; margin-left:100px}"
       ],
       "settings": {
         "desktop_content_position": "center",
