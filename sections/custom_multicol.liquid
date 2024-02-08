@@ -13,7 +13,7 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
-    .image {
+    .i {
     padding-top: 25px;
     padding-left: 25px;
     padding-right: 0;
@@ -21,7 +21,7 @@
     padding-bottom: 5px;
     transition: transform 0.5s;
   }
-  .image:hover {
+  .i:hover {
     transform: rotateX(360deg);
   }
   .inline-richtext {
@@ -166,7 +166,7 @@
               <div class="multicolumn-card__info">
                 <div class="container">
                   <div class="topimage">
-                    <div class="image">
+                    <div class="i">
                       {% if block.settings.image != blank %}
                         {{ block.settings.image | image_url: width: 50 | image_tag: sizes: sizes }}
                       {% endif %}
