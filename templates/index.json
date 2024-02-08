@@ -325,7 +325,7 @@
         ".media:hover {background-color: #ad9779;}",
         ".link {font-size: 20px; font-weight: bold; color: #ad9779;}",
         ".link:hover {font-size: 20px; font-weight: bold; color: white; transition: border-bottom 0.3s ease;}",
-        ".multicolumn-card {padding-top: 20px; padding-bottom:20px;}"
+        ".multicolumn-card {padding-top: 20px; padding-bottom: 20px;}"
       ],
       "settings": {
         "title": "",
@@ -335,7 +335,7 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "view all",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
