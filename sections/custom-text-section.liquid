@@ -20,13 +20,6 @@
       {% endif %}
     {% endfor %}
     <div class="bn">
-      <div class="image">
-        {{
-          block.settings.img
-          | image_url: width: 20
-          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-        }}
-      </div>
       <button class="btn btn1" style="width:250px;">{{ section.settings.button }}</button>
     </div>
   </div>
@@ -117,18 +110,13 @@
       "label":"Heading"
     },
     {
-          "type":"image_picker",
-          "id":"image",
-          "label":"select image"
-    },
-    {
           "type":"richtext",
           "id":"text",
           "label":"Add text"
-    },
+        },
     {
           "type":"image_picker",
-          "id":"img",
+          "id":"image",
           "label":"select image"
         },
     {
