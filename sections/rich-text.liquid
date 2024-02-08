@@ -1,4 +1,4 @@
-{% comment %} {{ 'section-rich-text.css' | asset_url | stylesheet_tag }} {% endcomment %}
+{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
         .section-{{ section.id }}-padding {
@@ -117,11 +117,9 @@
                     {% else %}
                       href="{{ block.settings.button_link }}"
                     {% endif %}
-                    <!--
+
                     class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
-                    --
                   >
-                    >
                     {{- block.settings.button_label | escape -}}
                   </a>
                 {%- endif -%}
