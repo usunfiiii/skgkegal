@@ -99,7 +99,7 @@
           "type": "column",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/file_11ce4e81-0b4e-4d21-8c92-34a46075f591.jpg",
+            "image": "shopify:\/\/shop_images\/icons8-message-32_1.png",
             "title": "40+ Years of Experience",
             "text": "<p>Experienced Attorneys in New Jersey.We have the best skilled lawyers with many years of background knowledge and experience.<\/p>",
             "link_label": "Read More",
@@ -112,7 +112,7 @@
           "type": "column",
           "settings": {
             "heading": "",
-            "image": "shopify:\/\/shop_images\/file_11ce4e81-0b4e-4d21-8c92-34a46075f591.jpg",
+            "image": "shopify:\/\/shop_images\/icons8-message-32_1.png",
             "title": "Experienced Attorneys",
             "text": "<p>Our attorneys are accustomed to each other’s professional approach to a case which allows versatility and value-added service for our clients.<\/p>",
             "link_label": "Read More",
@@ -134,7 +134,7 @@
         ".container2 {background-color: #1a243f; margin-top: 0; padding: 15px; color: white;}",
         ".link {color: #ad9779;}",
         ".link:hover {color: #ffffff;}",
-        ".img {margin:0;}",
+        ".img {margin: 0;}",
         ".topimage {height: 100px; width: 100px; margin-left: 0; background-color: #ad9779;}"
       ],
       "settings": {
