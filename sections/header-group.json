@@ -1,1 +1,68 @@
-{"name":"t:sections.header.name","type":"header","sections":{"custom_text_section_GVciL3":{"type":"custom-text-section","blocks":{"image_picker_EiyBhE":{"type":"image_picker","settings":{"image":"shopify:\/\/shop_images\/icons8-email-48.png","richtxt":"<p>attorneys@sgklegal.com<\/p>"}},"image_picker_86C3qa":{"type":"image_picker","settings":{"image":"shopify:\/\/shop_images\/icons8-location-24.png","richtxt":"<p>One Auer Court, East Brunswick, NJ 08816<br\/><\/p>"}},"image_picker_bTaKiw":{"type":"image_picker","settings":{"image":"shopify:\/\/shop_images\/icons8-clock-32.png","richtxt":"<p>Monday - Friday 8.30 AM - 5.00 PM<br\/><\/p>"}}},"block_order":["image_picker_EiyBhE","image_picker_86C3qa","image_picker_bTaKiw"],"custom_css":[],"settings":{"heading":""}},"header":{"type":"header","settings":{"logo_position":"middle-left","menu":"header-menu-1","menu_type_desktop":"mega","sticky_header_type":"on-scroll-up","show_line_separator":true,"color_scheme":"background-1","menu_color_scheme":"background-1","enable_country_selector":true,"enable_language_selector":true,"mobile_logo_position":"center","margin_bottom":0,"padding_top":28,"padding_bottom":28,"image":"shopify:\/\/shop_images\/icons8-call-50.png"}}},"order":["custom_text_section_GVciL3","header"]}
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "custom_text_section_GVciL3": {
+      "type": "custom-text-section",
+      "blocks": {
+        "image_picker_EiyBhE": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons8-email-48.png",
+            "richtxt": "<p>attorneys@sgklegal.com<\/p>"
+          }
+        },
+        "image_picker_86C3qa": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons8-location-24.png",
+            "richtxt": "<p>One Auer Court, East Brunswick, NJ 08816<br\/><\/p>"
+          }
+        },
+        "image_picker_bTaKiw": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons8-clock-32.png",
+            "richtxt": "<p>Monday - Friday 8.30 AM - 5.00 PM<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_picker_EiyBhE",
+        "image_picker_86C3qa",
+        "image_picker_bTaKiw"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "",
+        "text": "",
+        "button": "<p>request consultation<\/p>"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "header-menu-1",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "image": "shopify:\/\/shop_images\/icons8-call-50.png"
+      }
+    }
+  },
+  "order": [
+    "custom_text_section_GVciL3",
+    "header"
+  ]
+}
