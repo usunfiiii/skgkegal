@@ -264,7 +264,7 @@
       "custom_css": [
         ".rich-text__caption {text-align: center; color: #ad9779;}",
         ".rich-text-text {font-size: 14px; text-transform: uppercase; color: #ad9779; letter-spacing: 0.2em; margin-bottom: 4px; position: relative;}",
-        ".caption {color: black; align-item:center;}"
+        ".caption {color: black; align-item: center;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -679,7 +679,8 @@
       ],
       "custom_css": [
         ".rich-text-text {color: #ad9779; letter-spacing: 0.2em; margin-bottom: 4px;}",
-        ".subtitle {color: black;}"
+        ".subtitle {color: black;}",
+        ".caption{align-item:center;}"
       ],
       "settings": {
         "desktop_content_position": "center",
