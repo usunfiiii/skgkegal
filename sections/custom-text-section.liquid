@@ -20,7 +20,7 @@
       {% endif %}
     {% endfor %}
     <div class="bn">
-      <button class="btn btn1" style="width:250px;">REQUEST CONSULTAION</button>
+      <button class="btn btn1" style="width:250px;">{{ section.settings.button }}</button>
     </div>
   </div>
 </footer>
@@ -113,7 +113,12 @@
           "type":"richtext",
           "id":"text",
           "label":"Add text"
-        }
+        },
+    {
+      "type":"richtext",
+      "id":"button",
+      "label":"Add Button"
+    }
 
   ],
   "max_blocks":10,
