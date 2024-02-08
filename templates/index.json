@@ -201,8 +201,8 @@
         "heading_ne49bt"
       ],
       "custom_css": [
-        ".caption {font-size: 15px; margin-bottom:0;}",
-        ".text {color: black; padding-top:0; margin-top:0;}",
+        ".caption {font-size: 15px; margin-bottom: 0;}",
+        ".text {color: black; padding-top: 0; margin-top: 0;}",
         ".h2 {color: #ad9779;}"
       ],
       "settings": {
@@ -678,7 +678,8 @@
         "caption_mfXYNp"
       ],
       "custom_css": [
-        ".rich-text-text {color: #ad9779; letter-spacing: 0.2em; margin-bottom: 4px;}"
+        ".rich-text-text {color: #ad9779; letter-spacing: 0.2em; margin-bottom: 4px;}",
+        ".subtitle{color:black;}"
       ],
       "settings": {
         "desktop_content_position": "center",
