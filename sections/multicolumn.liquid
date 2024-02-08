@@ -143,6 +143,9 @@
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
+                {%- if block.settings.button != blank -%}
+                  <div class="button">{{ block.settings.button }}</div>
+                {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a
                     class="link animate-arrow"
