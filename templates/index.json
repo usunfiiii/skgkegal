@@ -265,7 +265,7 @@
       "custom_css": [
         ".rich-text__caption {text-align: center; color: #ad9779;}",
         ".rich-text-text {font-size: 14px; text-transform: uppercase; color: #ad9779; letter-spacing: 0.2em; margin-bottom: 4px; position: relative;}",
-        ".caption {color: black; margin-left: 150px;}"
+        ".caption {color: black; \/* margin-left: 150px; *\/}"
       ],
       "settings": {
         "desktop_content_position": "center",
