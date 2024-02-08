@@ -7,7 +7,7 @@
           <p>{{ block.settings.text }}</p>
         </div>
       {% elsif block.type == 'image_picker' -%}
-        <div class="img">
+        <div class="im">
           {{
             block.settings.image
             | image_url: width: 20
@@ -40,12 +40,12 @@
        flex-direction: row;
        }
 
-     .img{
+     .im{
        display:flex;
        margin-top:20px;
        /* padding-right:20px; */
      }
-     .img:hover{
+     .im:hover{
        font-weight:bold;
      }
      .btn{
