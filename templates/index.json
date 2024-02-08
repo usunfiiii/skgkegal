@@ -87,7 +87,7 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/icons8-message-32_1.png",
-            "title": "Request Consultation",
+            "title": "",
             "text": "<p>If you are in need of help from a lawyer, we will advise you free of charge regardless of the case. Grow world view.<\/p>",
             "link_label": "Get In Touch",
             "link": "",
@@ -100,7 +100,7 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/icons8-message-32_1.png",
-            "title": "40+ Years of Experience",
+            "title": "",
             "text": "<p>Experienced Attorneys in New Jersey.We have the best skilled lawyers with many years of background knowledge and experience.<\/p>",
             "link_label": "Read More",
             "link": "",
@@ -113,7 +113,7 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/icons8-message-32_1.png",
-            "title": "Experienced Attorneys",
+            "title": "",
             "text": "<p>Our attorneys are accustomed to each other’s professional approach to a case which allows versatility and value-added service for our clients.<\/p>",
             "link_label": "Read More",
             "link": "",
@@ -129,8 +129,8 @@
       ],
       "custom_css": [
         ".image {padding-top: 25px; padding-left: 25px; padding-right: 0; margin-left: 0; padding-bottom: 5px;}",
-        ".inline-richtext {margin: 0; font-size: 20px; color: #fff; padding: 5px 30px;}",
-        ".container {height: 100px; width: 100%; background-color: #2a334d; \/* margin-top: -150px; z-index: -1; *\/}",
+        ".inline-richtext {margin: 0; font-size: 20px; color: #fff; padding: 5px 30px; display: flex; flex-direction: column;}",
+        ".container {height: 100px; width: 100%; background-color: #2a334d;}",
         ".container2 {background-color: #1a243f; margin-top: 0; padding: 15px; color: white;}",
         ".link {color: #ad9779;}",
         ".link:hover {color: #ffffff;}",
