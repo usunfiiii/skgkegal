@@ -11,6 +11,10 @@
             "logo": "shopify:\/\/shop_images\/img-logo.png",
             "heading": "",
             "subtext": "<p>As a team, SGK Legal has worked together for over 40 years. Our attorneys are accustomed to each other’s professional approach to a case which allows versatility and value-added service for our clients.<\/p><p>We Gladly Accept:<\/p><p><\/p><p><\/p><p><\/p>",
+            "pay1": "shopify:\/\/shop_images\/icons8-visa-50.png",
+            "pay2": "shopify:\/\/shop_images\/icons8-paypal-32.png",
+            "pay3": "shopify:\/\/shop_images\/icons8-mastercard-50.png",
+            "pay4": "shopify:\/\/shop_images\/icons8-american-express-50.png",
             "show_payment": false,
             "show_button": true
           }
