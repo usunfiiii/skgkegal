@@ -128,14 +128,7 @@
         "column_jdEVpe"
       ],
       "custom_css": [
-        ".image {padding-top: 25px; padding-left: 25px; padding-right: 0; margin-left: 0; padding-bottom: 5px;}",
-        ".inline-richtext{font-size: 20px; color: #fff; text-align:center; padding-left:100px; padding-top:40px;}",
-        ".container {display:flex; background-color: #2a334d;}",
-        ".container2 {background-color: #1a243f; margin-top: 0; padding: 15px; color: white;}",
-        ".link {color: #ad9779;}",
-        ".link:hover {color: #ffffff;}",
-        ".img {margin: 0;}",
-        ".topimage {height: 100px; width: 100px; margin-left: 0; background-color: #ad9779;}"
+
       ],
       "settings": {
         "title": "",
