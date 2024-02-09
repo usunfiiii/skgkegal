@@ -433,8 +433,7 @@
         "column_KwxPwd"
       ],
       "custom_css": [
-        ".button1{padding:8px;}",
-        ".button1:hover{background-color:blue;}"
+        ".button1 {padding: 8px;}"
       ],
       "settings": {
         "title": "",
