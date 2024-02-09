@@ -120,21 +120,21 @@
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
+                      {%- if block.settings.pay != blank -%}
+                        <h2 class="pay">
+                          {{
+                            block.settings.pay
+                            | image_url: width: 40
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
+                        </h2>
+                      {%- endif -%}
 
                       {% if block.settings.show_button %}
                         <button class="btn">MAKE A PAYMENT</button>
                       {% endif %}
                     </div>
 
-                    {%- if block.settings.pay != blank -%}
-                      <h2 class="pay">
-                        {{
-                          block.settings.pay
-                          | image_url: width: 40
-                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                        }}
-                      </h2>
-                    {%- endif -%}
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
