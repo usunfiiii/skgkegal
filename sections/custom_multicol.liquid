@@ -13,23 +13,23 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
-    .image {
+    .imag {
     padding-top: 15px;
     padding-left: 25px;
     transition: transform 0.30s;
     padding-bottom: 5px;
   }
-  .image:hover {
+  .imag:hover {
     transform: rotateY(360deg);
   }
-  .inline-richtext {
+  .inline {
     font-size: 20px;
     color: #fff;
     text-align: center;
     padding-left: 30px;
     padding-top: 20px;
   }
-    .container {
+    .contain {
     display: flex;
     background-color: #2a334d;
   }
@@ -165,16 +165,16 @@
                 -->
               {%- endif -%}
               <div class="multicolumn-card__info">
-                <div class="container">
+                <div class="contain">
                   <div class="topimage">
-                    <div class="image">
+                    <div class="imag">
                       {% if block.settings.image != blank %}
                         {{ block.settings.image | image_url: width: 50 | image_tag: sizes: sizes }}
                       {% endif %}
                     </div>
                   </div>
                   {%- if block.settings.title != blank -%}
-                    <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                    <h3 class="inline">{{ block.settings.title }}</h3>
                   {%- endif -%}
                 </div>
 
