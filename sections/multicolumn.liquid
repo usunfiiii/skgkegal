@@ -28,14 +28,14 @@
     transform: translate(-50%, -50%);
 
   }
-  .button {
+  .button1 {
     position: relative;
     background-color: #ad9779;
 
     overflow: hidden;
     transition: 1s all ease;
   }
-  .button::before {
+  .button1::before {
     background: #ad9779;
     content: "";
     position: absolute;
@@ -233,7 +233,7 @@
         </a>
       {%- endif -%}
       {%- if section.settings.button != blank -%}
-        <div class="button">{{ section.settings.button }}</div>
+        <div class="button1">{{ section.settings.button }}</div>
       {%- endif -%}
     </div>
   </div>
