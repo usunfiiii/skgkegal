@@ -25,26 +25,22 @@
 {% endcomment %}
 
 <div class="row">
-  <div class="section1">
-    {% for block in section.blocks %}
-      {% if block.type == 'text' %}
-        <div class="left">
-          <h1 class="h1">{{ block.settings.imgrich1 }}</h1>
-          <p class="p1">{{ block.settings.imgrich2 }}</p>
-          <div class="button01">
-            <button>{{ block.settings.imgrich3 }}</button>
-          </div>
+  {% for block in section.blocks %}
+    {% if block.type == 'text' %}
+      <div class="left">
+        <h1 class="h1">{{ block.settings.imgrich1 }}</h1>
+        <p class="p1">{{ block.settings.imgrich2 }}</p>
+        <div class="button01">
+          <button>{{ block.settings.imgrich3 }}</button>
         </div>
+      </div>
 
-        <div class="section2">
-          <div class="right">
-            <h2 class="h2">{{ block.settings.img1 }}</h2>
-            <p class="p1">{{ block.settings.img2 }}</p>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
+      <div class="right">
+        <h2 class="h2">{{ block.settings.img1 }}</h2>
+        <p class="p1">{{ block.settings.img2 }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
 
 {% style %}
