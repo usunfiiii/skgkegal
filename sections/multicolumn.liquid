@@ -165,12 +165,12 @@
                         class: 'multicolumn-card__image'
                     }}
                   </div>
+                </div>
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                 {%- endif -%}
-
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
@@ -239,7 +239,7 @@
       {%- endif -%}
       <div class="btncontainer">
         {%- if section.settings.button != blank -%}
-          <div class="b1">{{ section.settings.button }}</div>
+          <div class="button1">{{ section.settings.button }}</div>
         {%- endif -%}
       </div>
     </div>
@@ -441,7 +441,6 @@
         }
   ],
   "blocks": [
-
     {
       "type": "column",
       "name": "t:sections.multicolumn.blocks.column.name",
@@ -455,37 +454,6 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.multicolumn.blocks.column.settings.image.label"
-        },
-
-        {
-          "type":"image_picker",
-          "id":"img1",
-          "label":"select image"
-        },
-        {
-          "type":"richtext",
-          "id":"txt1",
-          "label":"Add text"
-        },
-         {
-          "type":"image_picker",
-          "id":"img2",
-          "label":"select image"
-        },
-        {
-          "type":"richtext",
-          "id":"txt2",
-          "label":"Add text"
-        },
-         {
-          "type":"image_picker",
-          "id":"img3",
-          "label":"select image"
-        },
-        {
-          "type":"richtext",
-          "id":"txt3",
-          "label":"Add text"
         },
         {
           "type": "inline_richtext",
