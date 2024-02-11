@@ -27,7 +27,7 @@
      transform: translate(-50%, -50%);
     margin:20px;
    }
-   .button1{
+   .b1{
      position: relative;
      background-color: #ad9779;
      height:50px;
@@ -37,7 +37,7 @@
      transition: 1s all ease;
      padding:8px;
    }
-   .button1::before {
+   .b1::before {
      background: #ad9779;
      content: "";
      position: absolute;
@@ -49,7 +49,7 @@
      padding:10px;
      transform: translate(-50%, -50%) rotate(45deg);
    }
-   .button1:hover::before {
+   .b1:hover::before {
      height: 380%;
    }
 {%- endstyle -%}
@@ -239,7 +239,7 @@
       {%- endif -%}
       <div class="btncontainer">
         {%- if section.settings.button != blank -%}
-          <div class="button1">{{ section.settings.button }}</div>
+          <div class="b1">{{ section.settings.button }}</div>
         {%- endif -%}
       </div>
     </div>
