@@ -766,7 +766,7 @@
             "image3": "shopify:\/\/shop_images\/icons8-comments-32.png",
             "richtxt3": "<p>No Comment<\/p>",
             "title": "Know the Importance of Homeowner’s Insurance",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p><\/p><p>Read More <\/p>",
             "link_label": "Read More",
             "link": ""
           }
@@ -819,7 +819,7 @@
         ".colum {display: flex; padding-right: 10px;}",
         ".show {display: flex;}",
         ".pic {padding-right: 5px;}",
-        ".com{font-size:14px;}"
+        ".com {font-size: 14px;}"
       ],
       "settings": {
         "title": "",
