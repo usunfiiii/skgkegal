@@ -538,7 +538,7 @@
         "text_qUxinn"
       ],
       "custom_css": [
-        ".overlay {display: flex; margin-bottom: 0; color: white; background-color: #1d2740; opacity:0.9;}",
+        ".overlay {display: flex; margin-bottom: 0; color: white; background-color: #1d2740; opacity: 0.9;}",
         ".image {padding-top: 40px; padding-right: 0; mix-blend-mode: color-burn;}",
         ".richtext {padding-left: 20px;}",
         ".richtext h1 {color: white;}",
@@ -831,6 +831,34 @@
         "padding_bottom": 36,
         "button": ""
       }
+    },
+    "newsect_NGdBwf": {
+      "type": "newsect",
+      "blocks": {
+        "text_n767Uj": {
+          "type": "text",
+          "settings": {
+            "imgrich1": "",
+            "imgrich2": "",
+            "imgrich3": ""
+          }
+        },
+        "rich_text_NBWE9V": {
+          "type": "rich_text",
+          "settings": {
+            "imgrich11": "<p>Hire This Excellent Family! I did<\/p>",
+            "imgrich12": "<p>When you hire our firm to manage your case, you have hired a team of legal advocates who care, who will keep you informed, who will fight for you<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_n767Uj",
+        "rich_text_NBWE9V"
+      ],
+      "settings": {
+        "heading": "",
+        "text": ""
+      }
     }
   },
   "order": [
@@ -848,6 +876,7 @@
     "image_dBKpGq",
     "rich_text_RehA8h",
     "img_with_text_2_DQ8GTh",
-    "multicolumn_G9Mpyc"
+    "multicolumn_G9Mpyc",
+    "newsect_NGdBwf"
   ]
 }
