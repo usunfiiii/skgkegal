@@ -27,13 +27,6 @@
             "menu": "header-menu-1"
           }
         },
-        "link_list_TcDWrd": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>CONTACT<\/strong>",
-            "menu": "contact"
-          }
-        },
         "text_g8QjKb": {
           "type": "text",
           "settings": {
@@ -42,13 +35,36 @@
             "show_payment": true,
             "show_button": false
           }
+        },
+        "image_picker_hPAmPz": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons8-home-24.png",
+            "richtxt": "<p>One Auer Court, East Brunswick, NJ 08816<\/p>"
+          }
+        },
+        "image_picker_VkUFnD": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons8-call-50_fd81f0cb-6dec-42ab-9fc4-0602db10fd08.png",
+            "richtxt": "<p>6379685365<\/p>"
+          }
+        },
+        "image_picker_eb9G8D": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons8-email-50.png",
+            "richtxt": "<p>attorneys@gmail.com<\/p>"
+          }
         }
       },
       "block_order": [
         "text_eAyqGK",
         "link_list_pmjg3K",
-        "link_list_TcDWrd",
-        "text_g8QjKb"
+        "text_g8QjKb",
+        "image_picker_hPAmPz",
+        "image_picker_VkUFnD",
+        "image_picker_eb9G8D"
       ],
       "custom_css": [
         ".footer {background-color: #1a243f; color: white;}",
@@ -57,7 +73,7 @@
         ".logo {padding-top: 20px; width: 180px;}",
         ".payment {justify-content: spacebetween;}",
         ".footer-block__details-content {padding-bottom: 20px;}",
-        ".link{padding-bottom:20px;}"
+        ".link {padding-bottom: 20px;}"
       ],
       "settings": {
         "color_scheme": "background-1",
