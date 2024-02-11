@@ -176,7 +176,7 @@
                     <div class="header">
                       <h3 class="a">{{ block.settings.head }}</h3>
                     </div>
-                    <div class="c1">
+                    <div class="colum">
                       <div class="im">
                         {{
                           block.settings.image1
@@ -188,27 +188,29 @@
                         <p>{{ block.settings.richtxt1 }}</p>
                       </div>
                     </div>
-
-                    <div class="ima">
-                      {{
-                        block.settings.image2
-                        | image_url: width: 25
-                        | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                      }}
+                    <div class="colum">
+                      <div class="ima">
+                        {{
+                          block.settings.image2
+                          | image_url: width: 25
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      </div>
+                      <div class="tt">
+                        <p>{{ block.settings.richtxt2 }}</p>
+                      </div>
                     </div>
-                    <div class="tt">
-                      <p>{{ block.settings.richtxt2 }}</p>
-                    </div>
-
-                    <div class="ima">
-                      {{
-                        block.settings.image3
-                        | image_url: width: 25
-                        | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                      }}
-                    </div>
-                    <div class="tt">
-                      <p>{{ block.settings.richtxt3 }}</p>
+                    <div class="colum">
+                      <div class="ima">
+                        {{
+                          block.settings.image3
+                          | image_url: width: 25
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      </div>
+                      <div class="tt">
+                        <p>{{ block.settings.richtxt3 }}</p>
+                      </div>
                     </div>
                   </div>
                 {% endif %}
