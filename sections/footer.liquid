@@ -124,23 +124,22 @@
                     {% render block %}
                   {% when 'image_picker' %}
                     <div class="section">
-                      <div class="container1">
-                        <div class="h">
-                          <h3 class="a">{{ block.settings.head }}</h3>
+                      <div class="h">
+                        <h3 class="a">{{ block.settings.head }}</h3>
+                      </div>
+                      <div class="col">
+                        <div class="im">
+                          {{
+                            block.settings.image1
+                            | image_url: width: 25
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
                         </div>
-                        <div class="c1">
-                          <div class="im">
-                            {{
-                              block.settings.image1
-                              | image_url: width: 25
-                              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                            }}
-                          </div>
-                          <div class="txt">
-                            <p>{{ block.settings.richtxt1 }}</p>
-                          </div>
+                        <div class="txt">
+                          <p>{{ block.settings.richtxt1 }}</p>
                         </div>
-
+                      </div>
+                      <div class="col">
                         <div class="ima">
                           {{
                             block.settings.image2
@@ -151,7 +150,8 @@
                         <div class="tt">
                           <p>{{ block.settings.richtxt2 }}</p>
                         </div>
-
+                      </div>
+                      <div class="col">
                         <div class="ima">
                           {{
                             block.settings.image3
@@ -162,7 +162,8 @@
                         <div class="tt">
                           <p>{{ block.settings.richtxt3 }}</p>
                         </div>
-
+                      </div>
+                      <div class="col">
                         <div class="ima">
                           {{
                             block.settings.image4
@@ -175,6 +176,7 @@
                         </div>
                       </div>
                     </div>
+
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
