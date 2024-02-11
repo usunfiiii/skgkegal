@@ -130,7 +130,7 @@
                           <h2 class="pay1">
                             {{
                               block.settings.pay1
-                              | image_url: width: 30
+                              | image_url: width: 35
                               | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
                             }}
                           </h2>
@@ -139,7 +139,7 @@
                           <h2 class="pay2">
                             {{
                               block.settings.pay2
-                              | image_url: width: 30
+                              | image_url: width: 35
                               | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
                             }}
                           </h2>
@@ -148,7 +148,7 @@
                           <h2 class="pay3">
                             {{
                               block.settings.pay3
-                              | image_url: width: 30
+                              | image_url: width: 35
                               | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
                             }}
                           </h2>
@@ -157,7 +157,16 @@
                           <h2 class="pay4">
                             {{
                               block.settings.pay4
-                              | image_url: width: 30
+                              | image_url: width: 35
+                              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                            }}
+                          </h2>
+                        {%- endif -%}
+                        {%- if block.settings.pay5 != blank -%}
+                          <h2 class="pay5">
+                            {{
+                              block.settings.pay5
+                              | image_url: width: 35
                               | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
                             }}
                           </h2>
