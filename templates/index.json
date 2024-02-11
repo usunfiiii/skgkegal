@@ -433,7 +433,7 @@
         "column_KwxPwd"
       ],
       "custom_css": [
-        ".button1 {padding: 8px;}"
+        ".button1 {padding: 8px; margin-top:20px;}"
       ],
       "settings": {
         "title": "",
