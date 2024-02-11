@@ -125,17 +125,18 @@
                   {% when 'image_picker' %}
                     <div class="section">
                       <div class="container1">
-                        <div class="im">
-                          {{
-                            block.settings.image1
-                            | image_url: width: 25
-                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                          }}
+                        <div class="c1">
+                          <div class="im">
+                            {{
+                              block.settings.image1
+                              | image_url: width: 25
+                              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                            }}
+                          </div>
+                          <div class="txt">
+                            <p>{{ block.settings.richtxt1 }}</p>
+                          </div>
                         </div>
-                        <div class="txt">
-                          <p>{{ block.settings.richtxt1 }}</p>
-                        </div>
-
                         <div class="im">
                           {{
                             block.settings.image2
