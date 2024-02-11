@@ -433,7 +433,7 @@
         "column_KwxPwd"
       ],
       "custom_css": [
-        ".button1 {padding: 8px; margin-top:20px;}"
+        ".button1 {padding: 8px; margin-top: 20px;}"
       ],
       "settings": {
         "title": "",
@@ -458,7 +458,6 @@
       "blocks": {
         "button_MHwdET": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "VIEW ALL",
             "buttonclr": "#000000",
