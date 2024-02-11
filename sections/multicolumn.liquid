@@ -197,17 +197,17 @@
                         <p>{{ block.settings.richtxt2 }}</p>
                       </div>
                     </div>
-                    <div class="colum">
-                      <div class="pic">
-                        {{
-                          block.settings.image3
-                          | image_url: width: 25
-                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                        }}
-                      </div>
-                      <div class="com">
-                        <p>{{ block.settings.richtxt3 }}</p>
-                      </div>
+                  </div>
+                  <div class="colum">
+                    <div class="pic">
+                      {{
+                        block.settings.image3
+                        | image_url: width: 25
+                        | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                      }}
+                    </div>
+                    <div class="com">
+                      <p>{{ block.settings.richtxt3 }}</p>
                     </div>
                   </div>
                 {% endif %}

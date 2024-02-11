@@ -815,7 +815,9 @@
       ],
       "custom_css": [
         ".link {color: #ad9779; font-weight: bold;}",
-        ".imgtext {display: block;}"
+        ".imgtext {display: block;}",
+        ".colum{display:flex;}",
+        ".show{display:flex;}"
       ],
       "settings": {
         "title": "",
