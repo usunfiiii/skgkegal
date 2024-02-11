@@ -125,7 +125,7 @@
                   {% when 'image_picker' %}
                     <div class="section">
                       <div class="container1">
-                        {% for block in section.blocks %}
+                        {% for i in (1..4) %}
                           {% if block.type == 'image_picker' -%}
                             <div class="im">
                               {{
