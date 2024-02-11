@@ -15,6 +15,7 @@
             "pay2": "shopify:\/\/shop_images\/icons8-paypal-32.png",
             "pay3": "shopify:\/\/shop_images\/icons8-mastercard-50.png",
             "pay4": "shopify:\/\/shop_images\/icons8-american-express-50.png",
+            "pay5": "shopify:\/\/shop_images\/icons8-mastercard-50.png",
             "show_payment": false,
             "show_button": true
           }
@@ -53,7 +54,10 @@
         ".footer {background-color: #1a243f; color: white;}",
         ".footer-block__heading {color: white; font-size: 20px; font-weight: bold; margin-bottom: 70px;}",
         ".list-menu__item {color: #ad9779; font-size: 15px; font-weight: bold;}",
-        ".logo {padding-top: 20px; width: 180px;}"
+        ".logo {padding-top: 20px; width: 180px;}",
+        ".payment {justify-content: spacebetween;}",
+        ".footer-block__details-content {padding-bottom: 20px;}",
+        ".link{padding-bottom:20px;}"
       ],
       "settings": {
         "color_scheme": "background-1",
