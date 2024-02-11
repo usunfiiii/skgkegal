@@ -165,8 +165,43 @@
                         class: 'multicolumn-card__image'
                     }}
                   </div>
-                  <div class="img">
-                    {{ block.settings.img1 }}
+                  <div class="section">
+                    <div class="container1">
+                      <div class="c1">
+                        <div class="ima">
+                          {{
+                            block.settings.img1
+                            | image_url: width: 15
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
+                        </div>
+                        <div class="txt">
+                          <p>{{ block.settings.txt1 }}</p>
+                        </div>
+                      </div>
+
+                      <div class="ima">
+                        {{
+                          block.settings.img2
+                          | image_url: width: 15
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      </div>
+                      <div class="tt">
+                        <p>{{ block.settings.txt2 }}</p>
+                      </div>
+
+                      <div class="ima">
+                        {{
+                          block.settings.img3
+                          | image_url: width: 15
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      </div>
+                      <div class="tt">
+                        <p>{{ block.settings.txt3 }}</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               {%- endif -%}
