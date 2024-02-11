@@ -37,8 +37,8 @@
         </div>
 
       {% elsif block.type == 'richtext' %}
-        <div class="right">
-          <div class="section2">
+        <div class="section2">
+          <div class="right">
             <h2>{{ block.settings.imgrich11 }}</h2>
             <p>{{ block.settings.imgrich12 }}</p>
           </div>
@@ -49,78 +49,77 @@
 </div>
 
 {% style %}
-    .row {
-    display: flex;
-    height:70vh;
-  }
-  .left{
-    margin:50px;
-  }
-  .section1 {
-    flex: 1;
-    padding: 20px;
+      .row {
+      display: flex;
+      height:70vh;
+    }
+    .left{
+      margin:50px;
+    }
+    .section1 {
+      flex: 1;
+      padding: 20px;
 
-    background-color:#1a243f;
-    width:40%;
-    background-size: cover;
-    background-position: center;
-
-  }
-  .section2{
-    background-color: white;
-    color:black;
-    width:60%;
-    padding: 20px;
-  }
-
-  h1{
-    color:#ad9779;
-    font-size:50px;
-    padding-bottom:50px;
-  }
-
-  h2{
-    padding-top:50px;
-    color:black;
-    font-size:20px;
-    padding-bottom:50px;
-  }
-
-  p{
-    font-size:20px;
-    color:white;
-    padding-bottom:20px;
-  }
-  .p1{
-    color:black;
-  }
-
-  button {
-      position: relative;
-      height:60px;
-      width:300px;
-      /* color:black;
-      background-color:white;
-      font-size: 14px;
-      padding: 14px 60px;
-      overflow: hidden;
-      transition: 1s all ease; */
+      background-color:#1a243f;
+      width:40%;
+      background-size: cover;
+      background-position: center;
 
     }
-    button::before {
-      background: #ad9779;
-      content: "";
-      position: absolute;
-      transform: translate(-50%, -50%);
-      z-index: -1;
-      transition: all 0.6s ease;
-      width: 100%;
-      height: 0%;
-      transform: translate(-50%, -50%) rotate(45deg);
+    .section2{
+      background-color: white;
+      color:black;
+      width:60%;
+      padding: 20px;
     }
-    button:hover::before {
-      height: 380%;
+
+  .h1{
+      color:#ad9779;
+      font-size:50px;
+      padding-bottom:50px;
     }
+
+    .h2{
+      padding-top:50px;
+      color:black;
+      font-size:20px;
+      padding-bottom:50px;
+    }
+
+
+    .p1{
+      color:black;
+       font-size:20px;
+      color:white;
+      padding-bottom:20px;
+    }
+
+    button01 {
+        position: relative;
+        height:60px;
+        width:300px;
+        /* color:black;
+        background-color:white;
+        font-size: 14px;
+        padding: 14px 60px;
+        overflow: hidden;
+        transition: 1s all ease; */
+
+      }
+      button01::before {
+        background: #ad9779;
+        content: "";
+        position: absolute;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        transition: all 0.6s ease;
+        width: 100%;
+        height: 0%;
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+      button01:hover::before {
+        height: 380%;
+      }
 {% endstyle %}
 {% schema %}
 {
