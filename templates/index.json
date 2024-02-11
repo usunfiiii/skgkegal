@@ -772,9 +772,12 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/photo12.jpg",
-            "txt1": "",
-            "txt2": "",
-            "txt3": "",
+            "img1": "shopify:\/\/shop_images\/icons8-administrator-male-48_8f6f9d56-84d3-46a9-9bec-f6f0e2de69aa.png",
+            "txt1": "<p>skg-legal<\/p>",
+            "img2": "shopify:\/\/shop_images\/icons8-15-48.png",
+            "txt2": "<p>september-14 2023<\/p>",
+            "img3": "shopify:\/\/shop_images\/icons8-comments-32.png",
+            "txt3": "<p>No Comment<\/p>",
             "title": "Using Current Technology  for real Estate Transaction",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "Read More",
@@ -803,7 +806,7 @@
       ],
       "custom_css": [
         ".link {color: #ad9779; font-weight: bold;}",
-        ".imgtext {display:block;}"
+        ".imgtext {display: block;}"
       ],
       "settings": {
         "title": "",
