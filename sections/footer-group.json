@@ -82,7 +82,7 @@
         ".payment {justify-content: spacebetween;}",
         ".footer-block__details-content {padding-bottom: 20px;}",
         ".link {padding-bottom: 20px;}",
-        ".txt {padding-left: 10px; flex-direction: column;}"
+        ".txt {padding-left: 10px; }"
       ],
       "settings": {
         "color_scheme": "background-1",
