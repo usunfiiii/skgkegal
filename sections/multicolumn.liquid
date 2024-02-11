@@ -22,7 +22,7 @@
      .heading:hover{
        color:#ad9779;
      }
-  .page_width{
+  .center{
      position: absolute;
      transform: translate(-50%, -50%);
    }
@@ -236,9 +236,11 @@
           {{ section.settings.button_label | escape }}
         </a>
       {%- endif -%}
-      {%- if section.settings.button != blank -%}
-        <div class="button1">{{ section.settings.button }}</div>
-      {%- endif -%}
+      <div class="btncontainer">
+        {%- if section.settings.button != blank -%}
+          <div class="button1">{{ section.settings.button }}</div>
+        {%- endif -%}
+      </div>
     </div>
   </div>
 </div>
