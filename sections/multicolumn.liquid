@@ -165,6 +165,9 @@
                         class: 'multicolumn-card__image'
                     }}
                   </div>
+                  <div class="img">
+                    {{ block.settings.img1 }}
+                  </div>
                 </div>
               {%- endif -%}
               <div class="multicolumn-card__info">
@@ -459,32 +462,32 @@
 
         {
           "type":"image_picker",
-          "id":"image1",
+          "id":"img1",
           "label":"select image"
         },
         {
           "type":"richtext",
-          "id":"richtxt1",
+          "id":"txt1",
           "label":"Add text"
         },
          {
           "type":"image_picker",
-          "id":"image2",
+          "id":"img2",
           "label":"select image"
         },
         {
           "type":"richtext",
-          "id":"richtxt2",
+          "id":"txt2",
           "label":"Add text"
         },
          {
           "type":"image_picker",
-          "id":"image3",
+          "id":"img3",
           "label":"select image"
         },
         {
           "type":"richtext",
-          "id":"richtxt3",
+          "id":"txt3",
           "label":"Add text"
         },
         {
