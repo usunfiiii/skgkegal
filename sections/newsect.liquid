@@ -36,7 +36,6 @@
           </div>
         </div>
 
-      {% elsif block.type == 'richtext' %}
         <div class="section2">
           <div class="right">
             <h2 class="h2">{{ block.settings.img1 }}</h2>
@@ -96,12 +95,12 @@
         position: relative;
         height:60px;
         width:300px;
-        /* color:black;
+         color:black;
         background-color:white;
         font-size: 14px;
         padding: 14px 60px;
         overflow: hidden;
-        transition: 1s all ease; */
+        transition: 1s all ease;
 
       }
       button01::before {
@@ -117,7 +116,7 @@
       }
       button01:hover::before {
         height: 380%;
-      } */
+      }    */
 {% endstyle %}
 {% schema %}
 {
@@ -154,16 +153,8 @@
         "type":"richtext",
         "id":"imgrich3",
         "label":"add content"
-      }
-
-      ]
-    },
-     {
-      "type":"rich_text",
-      "name":"add section2",
-      "settings":
-      [
-        {
+      },
+         {
         "type":"richtext",
         "id":"img1",
         "label":"add content"
@@ -173,8 +164,10 @@
         "id":"img2",
         "label":"add content"
       }
-    ]
+
+      ]
     }
+
   ],
   "presets":[
     {
