@@ -816,8 +816,10 @@
       "custom_css": [
         ".link {color: #ad9779; font-weight: bold;}",
         ".imgtext {display: block;}",
-        ".colum{display:flex;}",
-        ".show{display:flex;}"
+        ".colum {display: flex; padding-right: 10px;}",
+        ".show {display: flex;}",
+        ".pic {padding-right: 5px;}",
+        ".com{font-size:14px;}"
       ],
       "settings": {
         "title": "",
