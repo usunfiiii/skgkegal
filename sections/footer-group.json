@@ -27,32 +27,17 @@
             "menu": "header-menu-1"
           }
         },
-        "image_picker_hPAmPz": {
-          "type": "image_picker",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/icons8-home-24.png",
-            "richtxt": "<p>One Auer Court, East Brunswick, NJ 08816<\/p>"
-          }
-        },
-        "image_picker_VkUFnD": {
-          "type": "image_picker",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/icons8-call-50_fd81f0cb-6dec-42ab-9fc4-0602db10fd08.png",
-            "richtxt": "<p>6379685365<\/p>"
-          }
-        },
-        "image_picker_eb9G8D": {
-          "type": "image_picker",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/icons8-email-50.png",
-            "richtxt": "<p>attorneys@gmail.com<\/p>"
-          }
-        },
         "image_picker_LEUMAV": {
           "type": "image_picker",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icons8-clock-30.png",
-            "richtxt": "<p>Mondya-friday<\/p>"
+            "image1": "shopify:\/\/shop_images\/icons8-home-24.png",
+            "richtxt1": "<p>One Auer Court, East Brunswick, NJ 08816<\/p>",
+            "image2": "shopify:\/\/shop_images\/icons8-call-50_fd81f0cb-6dec-42ab-9fc4-0602db10fd08.png",
+            "richtxt2": "<p>6379685365<\/p>",
+            "image3": "shopify:\/\/shop_images\/icons8-email-50.png",
+            "richtxt3": "<p>attorneys@gmail.com<\/p>",
+            "image4": "shopify:\/\/shop_images\/icons8-clock-30.png",
+            "richtxt4": "<p>Mon - Fri8.30 AM - 5.00 PM<\/p>"
           }
         },
         "text_g8QjKb": {
@@ -68,9 +53,6 @@
       "block_order": [
         "text_eAyqGK",
         "link_list_pmjg3K",
-        "image_picker_hPAmPz",
-        "image_picker_VkUFnD",
-        "image_picker_eb9G8D",
         "image_picker_LEUMAV",
         "text_g8QjKb"
       ],
@@ -82,7 +64,7 @@
         ".payment {justify-content: spacebetween;}",
         ".footer-block__details-content {padding-bottom: 20px;}",
         ".link {padding-bottom: 20px;}",
-        ".txt {padding-left: 10px; }"
+        ".txt {padding-left: 10px;}"
       ],
       "settings": {
         "color_scheme": "background-1",
