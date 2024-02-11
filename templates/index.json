@@ -279,6 +279,9 @@
           "settings": {
             "heading": "Business & Commercial Law",
             "image": "shopify:\/\/shop_images\/area_icon_02_9c2021a1-52de-44f3-86bb-6285038f599a.png",
+            "txt1": "",
+            "txt2": "",
+            "txt3": "",
             "title": "",
             "text": "<p>Business & Commercial Law If you need the assistance of…<\/p>",
             "link_label": "Read More",
@@ -290,6 +293,9 @@
           "settings": {
             "heading": "Civil Litigation",
             "image": "shopify:\/\/shop_images\/civil_law_white.svg",
+            "txt1": "",
+            "txt2": "",
+            "txt3": "",
             "title": "",
             "text": "<p>Civil Litigation Civil litigation is the process in which civil…<\/p>",
             "link_label": "Read More",
@@ -301,6 +307,9 @@
           "settings": {
             "heading": "Family Law & Divorce",
             "image": "shopify:\/\/shop_images\/area_icon_01.png",
+            "txt1": "",
+            "txt2": "",
+            "txt3": "",
             "title": "",
             "text": "<p>Family Law & Divorce When you are involved with an…<\/p>",
             "link_label": "Read More",
@@ -398,6 +407,9 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/alan.png",
+            "txt1": "",
+            "txt2": "",
+            "txt3": "",
             "title": "Allan Gottlieb",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -409,6 +421,9 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/Lawrence.png",
+            "txt1": "",
+            "txt2": "",
+            "txt3": "",
             "title": "Lawrence Kroll",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -420,6 +435,9 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/David.png",
+            "txt1": "",
+            "txt2": "",
+            "txt3": "",
             "title": "David Sapiro",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -737,6 +755,12 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/photo11.jpg",
+            "img1": "shopify:\/\/shop_images\/icons8-administrator-male-48.png",
+            "txt1": "<p>SGK legal -<\/p>",
+            "img2": "shopify:\/\/shop_images\/icons8-15-48.png",
+            "txt2": "<p>september-14 2023<\/p>",
+            "img3": "shopify:\/\/shop_images\/icons8-comments-32.png",
+            "txt3": "<p>No Comment<\/p>",
             "title": "Know the Importance of Homeowner’s Insurance",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "Read More",
@@ -748,6 +772,9 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/photo12.jpg",
+            "txt1": "",
+            "txt2": "",
+            "txt3": "",
             "title": "Using Current Technology  for real Estate Transaction",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "Read More",
@@ -759,6 +786,9 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/photo13.jpg",
+            "txt1": "",
+            "txt2": "",
+            "txt3": "",
             "title": "The value of Homeowners Insurance",
             "text": "<p>Know the Importance of Homeowner’s Insurance Do you have protection if your basement leaks, or your  if your basement leaks, or your problems<\/p>",
             "link_label": "Read More",
