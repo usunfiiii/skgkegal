@@ -530,22 +530,15 @@
           "settings": {
             "imgtxt": "Subscribe to my Newsletter, we won’t spam. Promise!"
           }
-        },
-        "image_picker_e4A4Ed": {
-          "type": "image_picker",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/news_bg_fa127119-d870-48dd-9c70-b20330917cfc.jpg"
-          }
         }
       },
       "block_order": [
         "image_picker_qpwwbh",
         "richtext_TnpwRn",
-        "text_qUxinn",
-        "image_picker_e4A4Ed"
+        "text_qUxinn"
       ],
       "custom_css": [
-        ".footer-top {display: flex; margin-bottom: 0; color: white;}",
+        ".section7 {display: flex; margin-bottom: 0; color: white;}",
         ".image {padding-top: 40px; padding-right: 0; mix-blend-mode: color-burn;}",
         ".richtext {padding-left: 20px;}",
         ".richtext h1 {color: white;}",
