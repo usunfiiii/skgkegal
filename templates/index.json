@@ -279,6 +279,7 @@
           "settings": {
             "heading": "Business & Commercial Law",
             "image": "shopify:\/\/shop_images\/area_icon_02_9c2021a1-52de-44f3-86bb-6285038f599a.png",
+            "showimgtext": false,
             "txt1": "",
             "txt2": "",
             "txt3": "",
@@ -293,6 +294,7 @@
           "settings": {
             "heading": "Civil Litigation",
             "image": "shopify:\/\/shop_images\/civil_law_white.svg",
+            "showimgtext": false,
             "txt1": "",
             "txt2": "",
             "txt3": "",
@@ -307,6 +309,7 @@
           "settings": {
             "heading": "Family Law & Divorce",
             "image": "shopify:\/\/shop_images\/area_icon_01.png",
+            "showimgtext": false,
             "txt1": "",
             "txt2": "",
             "txt3": "",
@@ -407,6 +410,7 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/alan.png",
+            "showimgtext": false,
             "txt1": "",
             "txt2": "",
             "txt3": "",
@@ -421,6 +425,7 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/Lawrence.png",
+            "showimgtext": false,
             "txt1": "",
             "txt2": "",
             "txt3": "",
@@ -435,6 +440,7 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/David.png",
+            "showimgtext": false,
             "txt1": "",
             "txt2": "",
             "txt3": "",
@@ -755,6 +761,7 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/photo11.jpg",
+            "showimgtext": true,
             "img1": "shopify:\/\/shop_images\/icons8-administrator-male-48.png",
             "txt1": "<p>SGK legal -<\/p>",
             "img2": "shopify:\/\/shop_images\/icons8-15-48.png",
@@ -772,6 +779,7 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/photo12.jpg",
+            "showimgtext": true,
             "img1": "shopify:\/\/shop_images\/icons8-administrator-male-48_8f6f9d56-84d3-46a9-9bec-f6f0e2de69aa.png",
             "txt1": "<p>skg-legal<\/p>",
             "img2": "shopify:\/\/shop_images\/icons8-15-48.png",
@@ -789,6 +797,7 @@
           "settings": {
             "heading": "",
             "image": "shopify:\/\/shop_images\/photo13.jpg",
+            "showimgtext": true,
             "img1": "shopify:\/\/shop_images\/icons8-administrator-male-48_8f6f9d56-84d3-46a9-9bec-f6f0e2de69aa.png",
             "txt1": "<p>SGK legal<\/p>",
             "img2": "shopify:\/\/shop_images\/icons8-15-48.png",
