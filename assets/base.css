@@ -1217,8 +1217,8 @@ button.shopify-payment-button__button--unbranded {
 }
 
 .cart__dynamic-checkout-buttons iframe {
-  /* box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius)
-    rgba(var(--color-shadow), var(--shadow-opacity)); */
+  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius)
+    rgba(var(--color-shadow), var(--shadow-opacity));
 }
 
 .button,
@@ -1233,14 +1233,14 @@ button.shopify-payment-button__button--unbranded {
   font: inherit;
   font-size: 1.5rem;
   text-decoration: none;
-  /* color: rgb(var(--color-button-text)); */
+  color: rgb(var(--color-button-text));
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-  /* background-color: rgba(var(--color-button), var(--alpha-button-background)); */
+  background-color: rgba(var(--color-button), var(--alpha-button-background));
 }
 
-/* .button:before,
+.button:before,
 .shopify-challenge__button:before,
 .customer button:before,
 .shopify-payment-button__button--unbranded:before,
@@ -1256,9 +1256,9 @@ button.shopify-payment-button__button--unbranded {
   border-radius: var(--buttons-radius-outset);
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius)
     rgba(var(--color-shadow), var(--shadow-opacity));
-} */
+}
 
-/* .button:after,
+.button:after,
 .shopify-challenge__button:after,
 .customer button:after,
 .shopify-payment-button__button--unbranded:after {
@@ -1274,9 +1274,9 @@ button.shopify-payment-button__button--unbranded {
       rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));
   transition: box-shadow var(--duration-short) ease;
-} */
+}
 
-/* .button:not([disabled]):hover::after,
+.button:not([disabled]):hover::after,
 .shopify-challenge__button:hover::after,
 .customer button:hover::after,
 .shopify-payment-button__button--unbranded:hover::after {
@@ -1288,7 +1288,7 @@ button.shopify-payment-button__button--unbranded {
 
 .button--secondary:after {
   --border-opacity: var(--buttons-border-opacity);
-} */
+}
 
 .button:focus-visible,
 .button:focus,
