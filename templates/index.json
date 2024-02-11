@@ -802,7 +802,8 @@
         "column_cBgFnR"
       ],
       "custom_css": [
-        ".link {color: #ad9779; font-weight: bold;}"
+        ".link {color: #ad9779; font-weight: bold;}",
+        ".imgtext {display:block;}"
       ],
       "settings": {
         "title": "",
