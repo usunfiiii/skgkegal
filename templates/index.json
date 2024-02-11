@@ -848,14 +848,18 @@
         "rich_text_4HtThr": {
           "type": "rich_text",
           "settings": {
-            "imgrich11": "<p>Anbu<\/p>",
-            "imgrich12": ""
+            "img1": "",
+            "img2": ""
           }
         }
       },
       "block_order": [
         "text_CMcwUr",
         "rich_text_4HtThr"
+      ],
+      "custom_css": [
+        ".h1{color:#ad9779;}",
+        ".button01{font-size:19px; color:pink;}"
       ],
       "settings": {
         "heading": "",
