@@ -1,25 +1,27 @@
-<div class="footer-t">
-  {% for block in section.blocks %}
-    {% if block.type == 'image_picker' -%}
-      <div class="image">
-        {{
-          block.settings.image
-          | image_url: width: 80
-          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-        }}
-      </div>
-    {% elsif block.type == 'richtext' %}
-      <div class="richtext">
-        <h1>{{ block.settings.imgrich }}</h1>
-        <p>{{ block.settings.text }}</p>
-      </div>
-    {% elsif block.type == 'text' %}
-      <div class="text">
-        <p>{{ block.settings.imgtxt }}</p>
-        <p>{{ block.settings.text }}</p>
-      </div>
-    {% endif %}
-  {% endfor %}
+<div class="section5">
+  <div class="overlay">
+    {% for block in section.blocks %}
+      {% if block.type == 'image_picker' -%}
+        <div class="image">
+          {{
+            block.settings.image
+            | image_url: width: 80
+            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+          }}
+        </div>
+      {% elsif block.type == 'richtext' %}
+        <div class="richtext">
+          <h1>{{ block.settings.imgrich }}</h1>
+          <p>{{ block.settings.text }}</p>
+        </div>
+      {% elsif block.type == 'text' %}
+        <div class="text">
+          <p>{{ block.settings.imgtxt }}</p>
+          <p>{{ block.settings.text }}</p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
 <style>
@@ -38,7 +40,7 @@
     .image {
       padding-top: 40px;
       padding-right: 0;
-      /* mix-blend-mode: color-burn; */
+
     }
     .richtext {
       padding-left: 20px;
