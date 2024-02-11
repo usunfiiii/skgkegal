@@ -30,6 +30,7 @@
         "image_picker_LEUMAV": {
           "type": "image_picker",
           "settings": {
+            "head": "<p>CONTACTS<\/p>",
             "image1": "shopify:\/\/shop_images\/icons8-home-24.png",
             "richtxt1": "<p>One Auer Court, East Brunswick, NJ 08816<\/p>",
             "image2": "shopify:\/\/shop_images\/icons8-call-50_fd81f0cb-6dec-42ab-9fc4-0602db10fd08.png",
@@ -64,7 +65,8 @@
         ".payment {justify-content: spacebetween;}",
         ".footer-block__details-content {padding-bottom: 20px;}",
         ".link {padding-bottom: 20px;}",
-        ".txt {padding-left: 10px;}"
+        ".txt {padding-left: 10px;}",
+        ".a {color: white; font-size: 20px; font-weight: bold; padding-letf:0;}"
       ],
       "settings": {
         "color_scheme": "background-1",
