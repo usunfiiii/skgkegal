@@ -62,11 +62,12 @@
         ".footer-block__heading {color: white; font-size: 20px; font-weight: bold; margin-bottom: 70px;}",
         ".list-menu__item {color: #ad9779; font-size: 15px; font-weight: bold;}",
         ".logo {padding-top: 20px; width: 180px;}",
-        ".payment {justify-content: spacebetween;}",
-        ".footer-block__details-content {padding-bottom: 20px;}",
         ".link {padding-bottom: 20px;}",
-        ".txt {padding-left: 10px;}",
-        ".a {color: white; font-size: 20px; font-weight: bold; padding-letf:0;}"
+        "img {display: flex;}",
+        ".a {color: white; font-size: 20px; font-weight: bold; padding-bottom: 10px; margin-top: -17px;}",
+        ".container {display: flex; flex-direction: column;}",
+        ".col {display: flex; flex-direction: row;}",
+        ".txt {padding-top:-30px; padding-left:10px;}"
       ],
       "settings": {
         "color_scheme": "background-1",
