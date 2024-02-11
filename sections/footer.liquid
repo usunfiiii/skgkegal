@@ -23,11 +23,7 @@
       margin-top:20px;
       width:500px;
     }
-    .container1{
-      display:flex;
-      flex-wrap: wrap;
 
-    }
     .btn{
       background-color:#ad9779;
       color:white;
@@ -129,18 +125,49 @@
                   {% when 'image_picker' %}
                     <div class="section">
                       <div class="container1">
-                        {% if block.type == 'image_picker' -%}
-                          <div class="im">
-                            {{
-                              block.settings.image
-                              | image_url: width: 25
-                              | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                            }}
-                          </div>
-                          <div class="txt">
-                            <p>{{ block.settings.richtxt }}</p>
-                          </div>
-                        {% endif %}
+                        <div class="im">
+                          {{
+                            block.settings.image1
+                            | image_url: width: 25
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
+                        </div>
+                        <div class="txt">
+                          <p>{{ block.settings.richtxt1 }}</p>
+                        </div>
+
+                        <div class="im">
+                          {{
+                            block.settings.image2
+                            | image_url: width: 25
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
+                        </div>
+                        <div class="txt">
+                          <p>{{ block.settings.richtxt2 }}</p>
+                        </div>
+
+                        <div class="im">
+                          {{
+                            block.settings.image3
+                            | image_url: width: 25
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
+                        </div>
+                        <div class="txt">
+                          <p>{{ block.settings.richtxt3 }}</p>
+                        </div>
+
+                        <div class="im">
+                          {{
+                            block.settings.image4
+                            | image_url: width: 25
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                          }}
+                        </div>
+                        <div class="txt">
+                          <p>{{ block.settings.richtxt4 }}</p>
+                        </div>
                       </div>
                     </div>
                   {%- when 'text' -%}
@@ -501,12 +528,42 @@
       "settings":[
         {
           "type":"image_picker",
-          "id":"image",
+          "id":"image1",
           "label":"select image"
         },
         {
           "type":"richtext",
-          "id":"richtxt",
+          "id":"richtxt1",
+          "label":"Add text"
+        },
+         {
+          "type":"image_picker",
+          "id":"image2",
+          "label":"select image"
+        },
+        {
+          "type":"richtext",
+          "id":"richtxt2",
+          "label":"Add text"
+        },
+         {
+          "type":"image_picker",
+          "id":"image3",
+          "label":"select image"
+        },
+        {
+          "type":"richtext",
+          "id":"richtxt3",
+          "label":"Add text"
+        },
+         {
+          "type":"image_picker",
+          "id":"image4",
+          "label":"select image"
+        },
+        {
+          "type":"richtext",
+          "id":"richtxt4",
           "label":"Add text"
         }
 
