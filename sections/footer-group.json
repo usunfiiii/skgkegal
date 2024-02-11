@@ -56,6 +56,13 @@
             "image": "shopify:\/\/shop_images\/icons8-email-50.png",
             "richtxt": "<p>attorneys@gmail.com<\/p>"
           }
+        },
+        "image_picker_LEUMAV": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons8-clock-30.png",
+            "richtxt": "<p>Mondya-friday<\/p>"
+          }
         }
       },
       "block_order": [
@@ -64,7 +71,8 @@
         "text_g8QjKb",
         "image_picker_hPAmPz",
         "image_picker_VkUFnD",
-        "image_picker_eb9G8D"
+        "image_picker_eb9G8D",
+        "image_picker_LEUMAV"
       ],
       "custom_css": [
         ".footer {background-color: #1a243f; color: white;}",
