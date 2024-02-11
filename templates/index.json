@@ -538,7 +538,7 @@
         "text_qUxinn"
       ],
       "custom_css": [
-        ".section7 {display: flex; margin-bottom: 0; color: white;}",
+        ".overlay {display: flex; margin-bottom: 0; color: white; background-color: #1d2740; opacity:0.9;}",
         ".image {padding-top: 40px; padding-right: 0; mix-blend-mode: color-burn;}",
         ".richtext {padding-left: 20px;}",
         ".richtext h1 {color: white;}",
