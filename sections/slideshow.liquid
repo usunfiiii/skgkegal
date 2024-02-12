@@ -264,7 +264,7 @@
                       function stfly() {
                           for(i=0;i != message.length;i++) {
                               if(message.charAt(i) != "$")
-                                  txt += "<span style='position:relative;visibility:hidden;' id='n"+i+"'>"+message.charAt(i)+"<\/span>";
+                                  txt += message.charAt(i);
                               else
                                   txt += "<br>";
                           }
