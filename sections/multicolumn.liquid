@@ -27,6 +27,11 @@
      transform: translate(-50%, -50%);
     margin:20px;
    }
+   .center{
+     position: absolute;
+     transform: translate(-50%, -50%);
+    margin:20px;
+   }
    .button1{
      position: relative;
      background-color: #ad9779;
@@ -37,7 +42,17 @@
      transition: 1s all ease;
      padding:8px;
    }
-   .button1::before {
+  .multicolumn-card {
+     position: relative;
+     background-color: #ad9779;
+     height:50px;
+     width:150px;
+     margin-left:450px;
+     overflow: hidden;
+     transition: 1s all ease;
+     padding:8px;
+   }
+   .multicolumn-card ::before {
      background: #ad9779;
      content: "";
      position: absolute;
@@ -49,7 +64,7 @@
      padding:10px;
      transform: translate(-50%, -50%) rotate(45deg);
    }
-   .button1:hover::before {
+   .multicolumn-card :hover::before {
      height: 380%;
    }
 {%- endstyle -%}
