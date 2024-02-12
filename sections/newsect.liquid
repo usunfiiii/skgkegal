@@ -28,93 +28,93 @@
   {% for block in section.blocks %}
     {% if block.type == 'text' %}
       <div class="left">
-        <h1 style="color:#ad9779">{{ block.settings.imgrich1 }}</h1>
-        <p class="p11">{{ block.settings.imgrich2 }}</p>
+        <h1 class="ri" style="color:#ad9779">{{ block.settings.imgrich1 }}</h1>
+        <p class="para">{{ block.settings.imgrich2 }}</p>
         <div class="button01">
           <button>{{ block.settings.imgrich3 }}</button>
         </div>
       </div>
 
       <div class="right">
-        <h2 class="bharathi">{{ block.settings.img1 }}</h2>
-        <p class="p11">{{ block.settings.img2 }}</p>
+        <h2 class="he2">{{ block.settings.img1 }}</h2>
+        <p class="para">{{ block.settings.img2 }}</p>
       </div>
     {% endif %}
   {% endfor %}
 </div>
 
 {% style %}
-      .row {
-      display: flex;
-      height:80vh;
-    }
+        .row {
+        display: flex;
+        height:80vh;
+      }
 
-    .left {
-      margin:50px;
-      flex: 1;
-      padding: 20px;
-      background-color:#1a243f;
-      width:40%;
-      background-size: cover;
-      background-position: center;
-
-    }
-    .right{
-      background-color: white;
-      color:black;
-      width:60%;
-      padding: 20px;
-      display:flex;
-      flex-direction:column;
-    }
-
-  .h11{
-      color:#ad9779;
-      font-size:50px;
-      padding-bottom:50px;
-    }
-
-    .h2{
-      padding-top:50px;
-      color:black;
-      font-size:20px;
-      padding-bottom:50px;
-    }
-
-
-    .p1{
-      color:black;
-       font-size:20px;
-      color:white;
-      padding-bottom:20px;
-    }
-
-    /* button01 {
-        position: relative;
-        height:60px;
-        width:300px;
-         color:black;
-        background-color:white;
-        font-size: 14px;
-        padding: 14px 60px;
-        overflow: hidden;
-        transition: 1s all ease;
+      .left {
+        margin:50px;
+        flex: 1;
+        padding: 20px;
+        background-color:#1a243f;
+        width:40%;
+        background-size: cover;
+        background-position: center;
 
       }
-      button01::before {
-        background: #ad9779;
-        content: "";
-        position: absolute;
-        transform: translate(-50%, -50%);
-        z-index: -1;
-        transition: all 0.6s ease;
-        width: 100%;
-        height: 0%;
-        transform: translate(-50%, -50%) rotate(45deg);
+      .right{
+        background-color: white;
+        color:black;
+        width:60%;
+        padding: 20px;
+        display:flex;
+        flex-direction:column;
       }
-      button01:hover::before {
-        height: 380%;
-      }    */
+
+  .ri{
+        color:#ad9779;
+        font-size:50px;
+        padding-bottom:50px;
+      }
+
+      .he2{
+        padding-top:50px;
+        color:black;
+        font-size:20px;
+        padding-bottom:50px;
+      }
+
+
+      .para{
+        color:black;
+         font-size:20px;
+        color:white;
+        padding-bottom:20px;
+      }
+
+      /* button01 {
+          position: relative;
+          height:60px;
+          width:300px;
+           color:black;
+          background-color:white;
+          font-size: 14px;
+          padding: 14px 60px;
+          overflow: hidden;
+          transition: 1s all ease;
+
+        }
+        button01::before {
+          background: #ad9779;
+          content: "";
+          position: absolute;
+          transform: translate(-50%, -50%);
+          z-index: -1;
+          transition: all 0.6s ease;
+          width: 100%;
+          height: 0%;
+          transform: translate(-50%, -50%) rotate(45deg);
+        }
+        button01:hover::before {
+          height: 380%;
+        }    */
 {% endstyle %}
 {% schema %}
 {
