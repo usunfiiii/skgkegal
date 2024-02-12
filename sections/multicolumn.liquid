@@ -27,12 +27,7 @@
      transform: translate(-50%, -50%);
     margin:20px;
    }
-   .center{
-     position: absolute;
-     transform: translate(-50%, -50%);
-    margin:20px;
-   }
-   .button1{
+   .b1{
      position: relative;
      background-color: #ad9779;
      height:50px;
@@ -42,17 +37,7 @@
      transition: 1s all ease;
      padding:8px;
    }
-  .multicolumn-card {
-     position: relative;
-     background-color: #ad9779;
-     height:50px;
-     width:150px;
-     margin-left:450px;
-     overflow: hidden;
-     transition: 1s all ease;
-     padding:8px;
-   }
-   .multicolumn-card ::before {
+   .b1::before {
      background: #ad9779;
      content: "";
      position: absolute;
@@ -64,7 +49,7 @@
      padding:10px;
      transform: translate(-50%, -50%) rotate(45deg);
    }
-   .multicolumn-card :hover::before {
+   .b1:hover::before {
      height: 380%;
    }
 {%- endstyle -%}
