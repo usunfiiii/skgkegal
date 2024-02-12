@@ -108,7 +108,20 @@
                       {% else %}
                         href="{{ block.settings.button_link }}"
                       {% endif %}
-                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      class="button1 button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      {{ block.shopify_attributes }}
+                    >
+                      {{ block.settings.button_label | escape }}
+                    </a>
+                  {%- endif -%}
+                  {%- if block.settings.button_label != blank -%}
+                    <a
+                      {% if block.settings.button_link == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.button_link }}"
+                      {% endif %}
+                      class="button1 button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                       {{ block.shopify_attributes }}
                     >
                       {{ block.settings.button_label | escape }}
@@ -460,19 +473,37 @@
       "settings": [
         {
           "type": "text",
-          "id": "button_label",
+          "id": "button_label1",
           "default": "Button label",
           "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
           "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
         },
         {
           "type": "url",
-          "id": "button_link",
+          "id": "button_link1",
           "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
         },
         {
           "type": "checkbox",
-          "id": "button_style_secondary",
+          "id": "button_style_secondary1",
+          "default": false,
+          "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label2",
+          "default": "Button label",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
+          "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link2",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary2",
           "default": false,
           "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
         }
