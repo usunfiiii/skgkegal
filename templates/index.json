@@ -732,6 +732,7 @@
         "text_W8pwGD",
         "caption_r9B3T9"
       ],
+      "disabled": true,
       "custom_css": [
         ".richtext {background-color: pink;}",
         ".subtitle {display: flex;}"
@@ -743,6 +744,32 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "newsect_zqfABq": {
+      "type": "newsect",
+      "blocks": {
+        "text_CMcwUr": {
+          "type": "text",
+          "settings": {
+            "imgrich1": "<h1>What Client says\"<\/h1>",
+            "imgrich2": "<p>When you hire our firm to manage your case, you have hired a team of legal advocates who care, who will keep you informed, who will fight for you<\/p>",
+            "imgrich3": "<p>VIEW ALL TERMINALS<\/p>",
+            "img1": "<p>When you hire our firm to manage your case, you have you have  hired , <\/p>",
+            "img2": "<p>When you hire our firm to manage your case, you have hired a team of legal advocates you have hired a team of legal advocates who care, who will keep you informed, who will fight <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_CMcwUr"
+      ],
+      "custom_css": [
+        ".ri {color: #ad9779; font-size: 100px;}",
+        ".button01 {font-size: 19px; color: pink;}"
+      ],
+      "settings": {
+        "heading": "",
+        "text": ""
       }
     },
     "multicolumn_G9Mpyc": {
@@ -833,32 +860,6 @@
         "padding_bottom": 36,
         "button": ""
       }
-    },
-    "newsect_zqfABq": {
-      "type": "newsect",
-      "blocks": {
-        "text_CMcwUr": {
-          "type": "text",
-          "settings": {
-            "imgrich1": "<h1>What Client says\"<\/h1>",
-            "imgrich2": "<p>When you hire our firm to manage your case, you have hired a team of legal advocates who care, who will keep you informed, who will fight for you<\/p>",
-            "imgrich3": "<p>VIEW ALL TERMINALS<\/p>",
-            "img1": "<p>When you hire our firm to manage your case, you have you have  hired , <\/p>",
-            "img2": "<p>When you hire our firm to manage your case, you have hired a team of legal advocates you have hired a team of legal advocates who care, who will keep you informed, who will fight <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_CMcwUr"
-      ],
-      "custom_css": [
-        ".ri {color: #ad9779; font-size: 100px;}",
-        ".button01 {font-size: 19px; color: pink;}"
-      ],
-      "settings": {
-        "heading": "",
-        "text": ""
-      }
     }
   },
   "order": [
@@ -876,7 +877,7 @@
     "image_dBKpGq",
     "rich_text_RehA8h",
     "img_with_text_2_DQ8GTh",
-    "multicolumn_G9Mpyc",
-    "newsect_zqfABq"
+    "newsect_zqfABq",
+    "multicolumn_G9Mpyc"
   ]
 }
